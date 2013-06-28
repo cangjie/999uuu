@@ -1,0 +1,12 @@
+.focus_pic {height:280px;width:500px; overflow:hidden; position:relative;border-right:1px solid #E0E0E0;z-index:10;}
+.focus_pic li {float:left; width:500px; height:280px; overflow:hidden; position:relative;}
+.focus_pic .opacity_bg { width:600px; height:35px; background-color:black; position:absolute; left:0; bottom:0; filter:alpha(opacity=60); opacity:0.6;}
+.focus_pic .pic_title {display:inline-block;width: 480px;height: 35px;overflow: hidden;position: absolute;left: 0;bottom: 0;font: 14px/35px "微软雅黑";color: white;text-indent: 10px;}
+
+.focus_img {margin:18px 0 0 0;width:698px;border: 1px solid #E0E0E0;background-position: 0 -104px;background: url(/jic/img/css/bar.jpg) repeat-x;}
+.focus_img .focus_pic_small {width:98px;height:338px;float:left;background: url(/jic/img/css/asterisk.gif) no-repeat; background-position:0 53px;overflow:hidden;}
+.focus_img .focus_pic_small li {float:left; width:174px; height:100px; overflow:hidden; position:relative; margin-top:8px;border: 1px solid #E0E0E0;border-right:none;}
+.focus_img .focus_pic_small .opacity_small { width:176px; height:100px; background-color:black; position:absolute; left:0; bottom:0; filter:alpha(opacity=70); opacity:0.7;}
+.focus_img .focus_pic_small .spic_list {margin-left:12px;}
+.big_pig_list { position:absolute; left:0; top:0;z-index:100;}
+.big_pig_list li { float:left;width:500px;height:280px;overflow:hidden; position:relative;z-index:1000;}

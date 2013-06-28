@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document begin*/
+/*landing_showed */
+.top ul li.landing_showed{margin-top:4px;}
+/*landing_showed end*/
+.errorTip{color:#FF0000; font-weight:bold}
+.content {margin:6px 0 0 0;width:980px;}
+
+.crumb {margin:15px 0 0 0;width:980px;}
+.crumb p {width:740px;color:#414141;}
+.crumb p a {color:#414141;}
+.crumb p a:hover {color:#f00;}
+.mainleft {width:700px;}
+.articlewrap {border:1px solid #dadada;width: 700px;}
+.articletitle {width:700px;padding:0 0 13px;border-bottom:1px solid #dadada;}
+.articletitle h1 {width:700px;font-size:18px;font-weight:normal;line-height:1.5em;color:#131313;font-family:"微软雅黑";text-align:center;}
+.articletitle p {display:inline;margin:12px 0 0 230px;line-height:18px;color:#333;text-align:center;}
+.articletitle p img {float:none;vertical-align:middle;}
+
+.article {width:680px;padding:20px 10px 30px 10px; line-height:22px;}
+.article div,.article p,.article ul,.article li,.article h1,.article h2,.article dl,.article dt,.article dd,.article h3 {float:none;}
+.article img{display:block; margin:0 auto;float:none;}
+.article p{padding:0 20px;line-height:24px;color:#414141;}
+.leftarticle {margin-top:20px;border: 1px solid #DDDDDD;width:700px}
+.leftarticle .head {border: 1px solid #E0F4B9;
+    height: 30px;
+    width: 700px;background: url("../images/pricereadmetitle_bg.gif")/*tpa=http://www.btgbj.com/jic/images/pricereadmetitle_bg.gif*/ repeat-x scroll center top #62AF1F;}
+.leftarticle .head h2{padding:5px 0 0 25px;color:#fff;}
+div.leftarticle .sect{width:700px;border:none;padding-bottom: 20px;}
+.leftarticle .sect .author{display:inline;margin:20px 0 0 20px;width:670px;font-size:14px;color:#000;background-color:#F3F9ED;padding: 10px 0 0 10px;}
+.leftarticle .sect .topic-content{display:inline;margin:0 20px;width:670px;font-size:14px;color:#0033CC;background-color:#F3F9ED;padding: 10px 0 10px 10px;}
+.leftarticle h1 {
+color: #FFFFFF;
+    font-size: 16px;
+    height: 25px;
+    padding: 5px 0 0 28px;
+    width: 672px;background: url("../images/pricereadmetitle_bg.gif")/*tpa=http://www.btgbj.com/jic/images/pricereadmetitle_bg.gif*/ repeat-x scroll center top #62AF1F;}
+.leftarticle ul {margin:15px 0 0 0;padding: 0 0 0 20px;
+    width: 680px;}
+.leftarticle li {width:330px;height:22px;padding:0 10px 0px 0;color:#444;}
+.leftarticle li a {color:#3366CC;}
+.leftarticle li a:hover {color:#f00;}
+.leftarticle .sect form{padding:20px 0 0 20px;}
+.otherline {margin:10px 0 0 0;width:700px;padding:0 0 10px 0;border:1px solid #dbd9d9;}
+.otherlinetitle {width:675px;height:30px;padding:0 0 0px 25px;border-bottom:1px solid #dbd9d9;background:#62af1f url("../images/pricereadmetitle_bg.gif")/*tpa=http://www.btgbj.com/jic/images/pricereadmetitle_bg.gif*/ repeat-x top;}
+.otherlinetitle h5 {font-size:16px;color:#fff;}
+.otherlinetitle h1{font-size:16px;color:#fff;}
+.otherlinelist {padding:16px 0 0 11px;}
+.otherlinelist ul {padding:0px 0 15px 0px;}
+.otherlinelist li.w1 {width:70px;color:#000;font-family:Arial, Helvetica, sans-serif;}
+.otherlinelist li.w2 {width:70px;color:#f60;font-weight:bold;font-family:Arial, Helvetica, sans-serif;}
+.otherlinelist li.w3 {width:415px;font-size:14px;color:#4e9700;}
+.otherlinelist li.w3 a {color:#4e9700;text-decoration:underline;}
+.otherlinelist li.w3 a span {color:#0449be;}
+.otherlinelist li.w3 a:hover {color:#f00;}
+.otherlinelist li.w3 a:hover span {color:#f00;cursor:pointer;}
+.otherlinelist li.w4 {width:48px;color:#000;font-family:Arial, Helvetica, sans-serif;}
+.otherlinelist li.w5 {width:51px;color:#666;font-family:Arial, Helvetica, sans-serif;}
+.otherlinelist li.w5 a {color:#666;text-decoration:underline;}
+.otherlinelist li.w5 a:hover {color:#f00;}
+.otherlinelist li.w6 {width:42px;color:#666;font-family:Arial, Helvetica, sans-serif;}
+.otherlinelist li.w6 a {color:#666;text-decoration:underline;}
+.otherlinelist li.w6 a:hover {color:#f00;}
+
+.hotline {margin:10px 0 0 0;width:720px;border:1px solid #dbd9d9;}
+.hotlinetitle {width:695px;height:25px;padding:8px 0 0px 25px;border-bottom:1px solid #dbd9d9;background:#62af1f url("../images/pricereadmetitle_bg.gif")/*tpa=http://www.btgbj.com/jic/images/pricereadmetitle_bg.gif*/ repeat-x top;}
+.hotlinetitle h5 {font-size:16px;color:#fff;}
+.hotlinelist {width:720px;height:40px;}
+.hotlinelist ul {width:708px;}
+.hotlinelist li {width:174px;}
+.hotlinelist li a {color:#000;}
+.hotlinelist li a:hover {color:#f00;}
+.hotlinelist li img {width:150px;height:113px;}
+.hotlinelist li p {margin:10px 0 0 0;width:150px;color:#000;}
+.hotlinelist li h1 {margin:10px 0 0 0;width:150px;font-size:12px;font-weight:normal;color:#666;text-align:center;}
+.hotlinelist li h1 span {font-weight:bold;color:#f60;font-family:Arial, Helvetica, sans-serif;}
+
+div.amainright {float:right;width:267px;}
+
+.arightcommend {width:265px;}
+.arightcommendtitle {width:230px;height:26px;padding:7px 0 0 18px;background:#f8f8f8;border-bottom:1px solid #dadada;}
+.arightcommendtitle h1 {width:230px;font-size:14px;font-weight:normal;color:#f36801;font-family:"微软雅黑";}
+.arightmaincommend {margin:10px 0 0 0;width:237px;padding:0 5px 0 6px;}
+.arightmaincommend h1 {width:237px;font-size:12px;line-height:18px;color:#08549f;}
+.arightmaincommend h1 a {color:#08549f;}
+.arightmaincommend h1 a:hover {color:#f00;}
+.arightmaincommend h2 {margin:10px 0 0 0;width:237px;padding:0 0 12px 0;}
+.arightmaincommend h2 img {width:235px;border:1px solid #ccc;}
+.arightmaincommend h3 {width:237px;font-size:12px;font-weight:normal;line-height:24px;color:#333;}
+.arightmaincommend h3 span {float:left;}
+.arightmaincommend h3 cite {float:right;}
+.arightmaincommend h3 cite em {font-weight:bold;color:#ff9000;font-family:"微软雅黑";}
+.arightmaincommend p {width:237px;line-height:24px;color:#333;}
+.arightmaincommend p a {color:#08549f;}
+.arightmaincommend p a:hover {color:#f00;}
+
+.righttextcommend {margin:10px 0 0 0;width:237px;padding:0 5px 0 6px;}
+.righttextcommend ul {width:237px;padding:16px 0 0 0;border-top:1px dashed #dfdfdf;}
+.righttextcommend li {width:237px;height:24px;color:#333;}
+.righttextcommend li span {float:left;color:#08549f;}
+.righttextcommend li cite {float:right;}
+.righttextcommend li cite em {color:#ff9000;font-family:"微软雅黑";}
+.righttextcommend li a {color:#08549f;}
+.righttextcommend li a:hover {color:#f00;}
+
+.rightarticle {margin:8px 0 0 0;width:265px;border:1px solid #dadada;}
+.rightarticletitle {width:247px;height:26px;padding:7px 0 0 18px;background:#f8f8f8;border-bottom:1px solid #dadada;}
+.rightarticletitle h1 {width:230px;font-size:14px;font-weight:normal;color:#f36801;font-family:"微软雅黑";}
+.rightarticlelist {width:230px;padding:8px 0 8px 12px;}
+.rightarticlelist ul {width:230px;}
+.rightarticlelist li {width:230px;height:24px;color:#666; line-height:24px; overflow:hidden;}
+.rightarticlelist li a {color:#08549f;}
+.rightarticlelist li a:hover {color:#f00;}
+.rightpic {margin:8px 0 0 0;width:248px;padding:0 1px;}
+.rightpic ul {width:248px;}
+.rightpic li {width:248px;}
+.rightpic li img {width:248px;}
+.pg {  width:700px; padding: 10px;}
+.paginator ul{ float:right; margin-right:9px;list-style:none; }
+.paginator li{ float:left;border: #aaaadd 1px solid; padding:5px;margin-right:4px;}
+.paginator li a {  padding:5px; color: #000099;text-decoration:none}
+.paginator li a:hover { font-weight:bold; COLOR: #F00;}
+.paginator li.current { font-weight:bold; color: #fff; background-color:#000099}
+.sect form label{display:block;overflow:hidden;}
+.sect form label textarea{float:left;margin-bottom:20px;}
+.sect form label a{float:left;}
+div.errorTip{float:none;display:inline;margin-left:23px;}
+.storycontent p{padding-left: 10px;
+    width: 670px;}
+.article div span{padding: 0 20px;font-size:12px;line-height:24px;}
+.article-content{padding:0 20px;}

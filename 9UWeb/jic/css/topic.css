@@ -1,0 +1,694 @@
+
+.head {
+    background: url("images/head_bg.jpg")/*tpa=http://www.btgbj.com/jic/css/images/head_bg.jpg*/ no-repeat scroll 174px 13px #FFFFFF;
+    height: 60px;
+    padding: 13px 0 0 25px;
+    width: 955px;
+}
+.logo {
+    width: 377px;
+}
+.tel {
+    margin: 5px 0 0;
+    width: 324px;
+}
+.tel p {
+    width: 324px;
+}
+.tel p span {
+    color: #0B85D2;
+    float: left;
+    padding: 2px 0 0 10px;
+    white-space: nowrap;
+}
+.tel h1 {
+    color: #0E8AD2;
+    font-family: "微软雅黑";
+    font-size: 29px;
+    font-weight: normal;
+    width: 324px;
+}
+
+.mainnav li.syzt {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/css/images/linetype_hot1.png*/ no-repeat scroll 57px 0 transparent;
+}
+.mainnav li.syzt a {
+    color: #FF0000;
+    padding: 13px 23px 0 10px;
+}
+.mainnav li.syzt a:hover {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/css/images/linetype_hot1.png*/ no-repeat scroll 57px 0 transparent;
+}
+.mainnav li a:hover {
+    background: url("images/mainnav_a_bg1.gif")/*tpa=http://www.btgbj.com/jic/css/images/mainnav_a_bg1.gif*/ repeat-x scroll center bottom transparent;
+    color: #FFFFFF;
+}
+.mainnav li.current {
+    height: 38px;
+    margin: -2px 2px 0 0;
+    position: relative;
+}
+.mainnav li.current a {
+    background: url("images/mainnav_a_bg2.gif")/*tpa=http://www.btgbj.com/jic/css/images/mainnav_a_bg2.gif*/ repeat-x scroll center bottom transparent;
+    color: #8F3D00;
+    font-weight: bold;
+    height: 23px;
+    padding: 15px 13px 0;
+}
+.mainnav li.current a:hover {
+    background: url("images/mainnav_a_bg2.gif")/*tpa=http://www.btgbj.com/jic/css/images/mainnav_a_bg2.gif*/ repeat-x scroll center bottom transparent;
+    color: #8F3D00;
+    font-weight: bold;
+}
+.mainnav .xinlang {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/css/images/xinlang.png*/ no-repeat scroll 0 0 transparent;
+    position: absolute;
+    right: 40px;
+    top: 8px;
+    z-index: 999;
+}
+.mainnav .xinlang p {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    padding: 0 0 0 20px;
+}
+.mainnav .xinlang p a {
+    color: #FFFFFF;
+}
+.mainnav .xinlang p a:hover {
+    text-decoration: underline;
+}
+.foot {
+    margin: 10px 0 0;
+    width: 980px;
+}
+.service {
+    background: url("images/service_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/service_bg.gif*/ no-repeat scroll 0 0 #269EFF;
+    height: 63px;
+    padding: 75px 0 0 32px;
+    width: 948px;
+}
+.service h1 {
+    color: #5DA0FB;
+    font-family: "微软雅黑";
+    font-size: 36px;
+    font-weight: normal;
+    width: 80px;
+}
+.service ul {
+    margin: 9px 0 0;
+    width: 120px;
+}
+.service li {
+    color: #4F4F4F;
+    height: 21px;
+    width: 120px;
+}
+.servicea {
+    border-bottom: 1px dashed #11B6FF;
+    border-top: 1px dashed #11B6FF;
+    height: 52px;
+    margin: 0 34px 0 0;
+    width: 200px;
+}
+.serviceb {
+    border-bottom: 1px dashed #11B6FF;
+    border-top: 1px dashed #11B6FF;
+    height: 52px;
+    margin: 0 48px 0 0;
+    width: 200px;
+}
+.servicec {
+    border-bottom: 1px dashed #11B6FF;
+    border-top: 1px dashed #11B6FF;
+    height: 52px;
+    margin: 0 36px 0 0;
+    width: 200px;
+}
+.serviced {
+    border-bottom: 1px dashed #11B6FF;
+    border-top: 1px dashed #11B6FF;
+    height: 52px;
+    width: 200px;
+}
+.foottel {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/css/images/foottel.gif*/ no-repeat scroll center center transparent;
+    height: 60px;
+    margin: 14px 0 0 50px;
+    padding: 0 0 0 174px;
+}
+.foottel p {
+    color: #0E8AD2;
+    font-family: "微软雅黑";
+    font-size: 30px;
+    padding: 25px 0 0 300px;
+}
+
+.footnav {
+    margin: 20px 0 0;
+    padding: 0 0 0 13px;
+    width: 967px;
+}
+.footnav h1 {
+    color: #3F7F00;
+    font-size: 14px;
+    width: 110px;
+}
+.footnav p {
+    color: #0077F3;
+    font-size: 14px;
+    width: 857px;
+}
+.footnav p a {
+    color: #0077F3;
+}
+.footnav p a:hover {
+    color: #3F7F00;
+}
+.footdestination {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #EAEAEA;
+    margin: 12px 0 0;
+    padding: 7px 0 7px 17px;
+    width: 961px;
+}
+.bottomdestination {
+    margin: 5px 0 0;
+    width: 950px;
+}
+.bottomdestination h1 {
+    color: #838383;
+    font-size: 12px;
+    width: 93px;
+}
+.bottomdestination ul {
+    width: 840px;
+}
+.bottomdestination ul.br {
+    border-bottom: 1px solid #E7E7E7;
+}
+.bottomdestination li {
+    color: #838383;
+    height: 19px;
+    padding: 0 17px 0 0;
+    width: auto;
+}
+.bottomdestination li a {
+    color: #838383;
+}
+.bottomdestination li a:hover {
+    color: #FF0000;
+}
+.copyright {
+    margin: 15px 0 0;
+    width: 980px;
+}
+.copyrightpic {
+    padding: 0 0 0 114px;
+    width: 866px;
+}
+.copyrightpic h1 {
+    font-size: 0;
+    width: 226px;
+}
+.copyrightpic ul {
+    margin: 20px 0 0;
+    width: 640px;
+}
+.copyrightpic li {
+    padding: 0 10px 0 0;
+}
+.copyrighttext {
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 10px 0 0;
+    width: 980px;
+}
+.copyrighttext p {
+    color: #404040;
+    padding: 0 0 10px;
+    text-align: center;
+    width: 980px;
+}
+.copyrighttext p span {
+    color: #0000FF;
+    font-weight: bold;
+}
+.copyrighttext h1 {
+    color: #404040;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 20px 0 0;
+    text-align: center;
+    width: 980px;
+}
+
+@charset "utf-8";
+#goTopBtn {
+    bottom: 35px;
+    cursor: pointer;
+    font-size: 12px;
+    height: 33px;
+    line-height: 30px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    width: 30px;
+}
+.monthcommend {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/css/images/monthcomend_bg2.gif*/ repeat-x scroll center bottom #FEF8E8;
+    height: 69px;
+    padding: 11px 0 0 28px;
+    width: 952px;
+}
+.channelnav {
+    height: 20px;
+    padding: 10px 0 0 18px;
+    width: 962px;
+}
+.channelnav p {
+    color: #575757;
+    width: 320px;
+}
+.channelnav p a {
+    color: #575757;
+}
+.channelnav p a:hover {
+    color: #FF0000;
+}
+.channelnav ul {
+    width: 530px;
+}
+.channelnav li {
+    color: #B5B5B5;
+    width: 530px;
+}
+.channelnav li a {
+    color: #0053AA;
+}
+.channelnav li a:hover {
+    color: #FF0000;
+}
+.content {
+	overflow:auto;zoom:1;
+}
+
+div.mainright {
+	float:right;
+    width: 703px;
+}
+.rightbanner {
+    width: 703px;
+}
+.rightcommend {
+    background: url("images/rightcommendlist_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/rightcommendlist_bg.gif*/ repeat scroll 0 0 transparent;
+    border-bottom: 4px solid #61D9FF;
+    margin: 10px 0 0;
+    width: 703px;
+}
+.rightcommendtitle {
+    background: url("images/rightcommendtitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/rightcommendtitle_bg.gif*/ no-repeat scroll 0 29px #FFFFFF;
+    height: 42px;
+    padding: 0 0 0 14px;
+    width: 689px;
+}
+.rightcommendtitle h1 {
+    background: url("images/rightcommendtitle_h1_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/rightcommendtitle_h1_bg.gif*/ no-repeat scroll 0 0 #FFFFFF;
+    color: #E62600;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: normal;
+    height: 28px;
+    padding: 14px 15px 0 40px;
+}
+.rightcommendlistall {
+    padding: 0 0 0 15px;
+    width: 686px;
+}
+.rightcommendlist {
+    width: 686px;
+}
+.rightcommendlist ul {
+    width: 686px;
+}
+.rightcommendlist li {
+display:inline;
+    border-bottom: 1px dashed #DADADA;
+    height: 90px;
+    margin: 0 22px 0 0;
+    padding: 10px 0 0;
+    
+	}
+.rightcommendpic {
+    height: 77px;
+    position: relative;
+    width: 151px;
+}
+.rightcommendpic img {
+    height: 74px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 142px;
+    z-index: 2;
+}
+.rightcommendpic cite {
+    color: #FFFFFF;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 16px;
+    left: 0;
+    padding: 2px 0 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 58px;
+    z-index: 3;
+}
+.rightcommendpic cite.t1 {
+    background: none repeat scroll 0 0 #0049F1;
+}
+.rightcommendpic cite.t2 {
+    background: none repeat scroll 0 0 #F10060;
+}
+.rightcommendpic cite.t3 {
+    background: none repeat scroll 0 0 #00B4F1;
+}
+.rightcommendpic cite.t4 {
+    background: none repeat scroll 0 0 #F13D00;
+}
+.rightcommendtext {
+    width: 160px;
+}
+.rightcommendtext h1 {
+    color: #4D5353;
+    font-size: 12px;
+    height:22px;
+    line-height:22px;
+    margin: 4px 0 0;
+    overflow: hidden;
+    width: 170px;
+}
+.rightcommendtext h1 a {
+    color: #4D5353;
+}
+.rightcommendtext h1 a:hover {
+    color: #FF0000;
+}
+.rightcommendtext p {
+    color: #7B7B7B;
+    height:40px;
+    line-height:20px;
+    margin: 3px 0 0;
+    overflow: hidden;
+    width: 160px;
+}
+.rightcommendtext h2 {
+    color: #FF7A17;
+    font-size: 12px;
+    font-weight: normal;
+    
+    text-align: center;
+    width: 160px;
+}
+.rightcommendtext h2 em {
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+.rightcommendnav {
+    height: 14px;
+    margin: 15px 0 0;
+    padding: 0 0 0 332px;
+    width: 370px;
+}
+.rightcommendnav ul {
+    width: 171px;
+}
+.rightcommendnav li {
+    background: url("images/focus_off.gif")/*tpa=http://www.btgbj.com/jic/css/images/focus_off.gif*/ no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    font-size: 0;
+    height: 5px;
+    margin: 0 0 0 7px;
+    overflow: hidden;
+    width: 5px;
+}
+.rightcommendnav li.selected {
+    background: url("images/focus_on.gif")/*tpa=http://www.btgbj.com/jic/css/images/focus_on.gif*/ no-repeat scroll 0 0 transparent;
+}
+.rightsortnav {
+    background: url("images/rightsortnav_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/rightsortnav_bg.gif*/ no-repeat scroll 190px 0 transparent;
+    height: 40px;
+    margin: 10px 0 0;
+    padding: 0 0 0 237px;
+    width: 466px;
+}
+.rightsortnav h1 {
+    color: #02B8F1;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: normal;
+    height: 24px;
+    line-height: 24px;
+    width: 466px;
+}
+.rightsortnav p {
+    color: #A3A3A3;
+    width: 466px;
+}
+.rightsort {
+    border-bottom: 3px solid #61D9FF;
+    border-top: 3px solid #61D9FF;
+    padding: 7px 0 0;
+    width: 703px;
+}
+.rightsort ul {
+   padding-left:12px;
+}
+.rightsort li {
+    height: 30px;
+    width: 172px;
+}
+.rightsort li h1 {
+    background: none repeat scroll 0 0 #006DFF;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    
+}
+.rightsort li p {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 17px;
+    padding: 3px 0 0 3px;
+    width: 135px;
+}
+.rightsort li p a {
+    color: #0049F1;
+}
+.rightsort li p a:hover {
+    color: #FF0000;
+}
+.rightsort li.current {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/css/images/rightsort_li_bg.gif*/ no-repeat scroll center 21px transparent;
+	display:inline;
+}
+.rightsort li.current p {
+    background: none repeat scroll 0 0 #0B94FF;
+}
+.rightsort li.current p a {
+    color: #FFFFFF;
+}
+.rightsort li.current p a:hover {
+    color: #FFFFFF;
+}
+.linewrap {
+    margin: 10px 0 0;
+    width: 703px;
+}
+.linelisttitle {
+    background: url("images/linetitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/linetitle_bg.gif*/ repeat scroll 0 0 transparent;
+    border: 1px solid #CACCC7;
+    height: 26px;
+    padding: 6px 0 0 18px;
+    width: 683px;
+	margin-top:10px;
+	float:none;
+}
+.linelisttitle h2 {
+    background: none repeat scroll 0 0 #858D97;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 50px;
+}
+.linelisttitle h1 {
+    color: #505050;
+    font-size: 14px;
+    height: 21px;
+    padding: 4px 20px 0 26px;
+}
+.linelisttitle p {
+    color: #1D55C7;
+    font-size: 14px;
+    font-weight: bold;
+    height: 21px;
+    padding: 4px 0 0;
+}
+.linelisttitle p a {
+    color: #1D55C7;
+}
+.linelisttitle p a:hover {
+    color: #FF2A00;
+}
+.linelisttitle p span {
+    color: #FF2A00;
+}
+.linesortinfo {    
+    background: url("images/line04.gif")/*tpa=http://www.btgbj.com/jic/css/images/line04.gif*/ repeat-x scroll center top #F6FFFE;
+    border:1px solid #C6E5F6;
+    height: 18px;
+    padding: 10px 0 0 25px;
+    width: 676px;
+}
+.linesortinfo ul {
+    width: 666px;
+}
+.linesortinfo li {
+    color: #505050;
+    font-weight: bold;
+    height: 18px;
+}
+.linesortinfo li.w1 {
+    width: 80px;
+}
+.linesortinfo li.w2 {
+    width: 468px;
+}
+.linesortinfo li.w3 {
+    color: #3366CC;
+    width: 50px;
+}
+.linesortinfo li.w4 {
+    color: #3366CC;
+    width: 10px;
+}
+.linesortinfo li.w5 {
+    color: #3366CC;
+    width: 40px;
+}
+.linelist {   
+    background: none repeat scroll 0 0 #FDFDFD;
+    border:1px solid #D6D6D6;
+    width: 701px;
+}
+.linelist ul {
+    overflow: hidden;
+    width: 701px;
+}
+.linelist li {
+    border-top: 1px solid #D6D6D6;
+    margin: -1px 0 0;
+    padding: 12px 0 8px 20px;
+    width: 681px;
+}
+.linenumber {
+    margin: 6px 0 0;
+    width: 50px;
+}
+.linenumber p {
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    width: 50px;
+}
+.linename {
+    width: 500px;
+}
+.linename h1 {
+    color: #065AF4;
+    font-size: 14px;
+    font-weight: normal;
+    height: 20px;
+    line-height: 26px;
+    overflow: hidden;
+    width: 500px;
+}
+.linename h1 cite {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 2px 5px;
+    vertical-align: top;
+}
+
+.linename h1 cite.tp2 {
+    background: none repeat scroll 0 0 #F13400;
+}
+.linename h1 cite.tp3 {
+    background: none repeat scroll 0 0 #F1A800;
+}
+.linename h1 a {
+    color: #065AF4;
+}
+.linename h1 a:hover {
+    color: #FF0000;
+}
+.linename p {
+    color: #888888;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    width: 450px;
+}
+.lineday {
+    margin: 5px 0 0;
+    padding: 0 5px 0 0;
+    width: 32px;
+}
+.lineday p {
+    color: #4E5251;
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    width: 32px;
+}
+.linetime {
+    margin: 8px 0 0;
+    width: 100px;
+}
+.linetime p {
+    color: #4E5251;
+    width: 100px;
+}
+.linetime p a {
+    color: #2886EB;
+}
+.linetime p a:hover {
+    color: #FF0000;
+}
+.linetime p span {
+    color: #4E5251;
+}
+.linetime p span a {
+    color: #4E5251;
+}
+.lineprice {
+    margin: 4px 0 0;
+    
+}
+.lineprice p {
+    color: #FF4800;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}

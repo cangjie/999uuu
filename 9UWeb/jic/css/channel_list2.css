@@ -1,0 +1,949 @@
+
+
+.top {
+    height: 23px;
+    margin: 5px 0 0;
+    width: 980px;
+}
+.top p {
+    color: #004EFF;
+    line-height: 23px;
+    margin-left: 0;
+    padding: 0 0 0 25px;
+    white-space: nowrap;
+}
+.top p span {
+    font-weight: bold;
+}
+.top .p1 {
+    background: url("images/tel.gif")/*tpa=http://www.btgbj.com/jic/css/images/tel.gif*/ no-repeat scroll left center transparent;
+    height: 19px;
+}
+.top p a {
+    color: #666666;
+}
+.top p a:hover {
+    color: #FF3000;
+}
+.top ul {
+    float: right;
+}
+.top li {
+    color: #666666;
+    padding: 0 5px;
+}
+.top li.nobg {
+    background: none repeat scroll 0 0 transparent;
+    padding: 0 0 0 10px;
+}
+.top li a {
+    color: #666666;
+    float: left;
+}
+.top li a span {
+    color: #666666;
+    float: left;
+    margin: 4px 0 0;
+    padding: 0 13px 0 0;
+}
+.top li a span.pd0 {
+    background: none repeat scroll 0 0 transparent;
+    padding: 0;
+}
+.top li a:hover {
+    color: #FF3000;
+}
+.top li a:hover span {
+    color: #FF3000;
+    cursor: pointer;
+}
+.top li h1 {
+    background: url("images/cart_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/cart_bg.gif*/ no-repeat scroll 7px 3px #FFFFFF;
+    border: 1px solid #D8D8D8;
+    color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+    height: 15px;
+    padding: 3px 6px 0 25px;
+}
+.top li h1 span {
+    margin: 0;
+}
+.top li h1 cite {
+    color: #FF5500;
+    font-weight: bold;
+}
+.topbanner {
+    position: relative;
+    width: 980px;
+}
+.topbanner p {
+    color: #116BFF;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    left: 480px;
+    position: absolute;
+    top: 28px;
+}
+.head {
+    background: url("images/head_bg.jpg")/*tpa=http://www.btgbj.com/jic/css/images/head_bg.jpg*/ no-repeat scroll 174px 13px #FFFFFF;
+    height: 60px;
+    padding: 13px 0 0 25px;
+    width: 955px;
+}
+.logo {
+    width: 377px;
+}
+.tel {
+    margin: 5px 0 0;
+    width: 324px;
+}
+.tel p {
+    width: 324px;
+}
+.tel p span {
+    color: #0B85D2;
+    float: left;
+    padding: 2px 0 0 10px;
+    white-space: nowrap;
+}
+.tel h1 {
+    color: #0E8AD2;
+    font-family: "微软雅黑";
+    font-size: 29px;
+    font-weight: normal;
+    width: 324px;
+}
+
+
+
+.mainnav li.syzt {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/css/images/linetype_hot1.png*/ no-repeat scroll 57px 0 transparent;
+}
+
+.mainnav li.syzt a:hover {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/css/images/linetype_hot1.png*/ no-repeat scroll 57px 0 transparent;
+}
+
+.mainnav .xinlang {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/css/images/xinlang.png*/ no-repeat scroll 0 0 transparent;
+    position: absolute;
+    right: 40px;
+    top: 8px;
+    z-index: 999;
+}
+.mainnav .xinlang p {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    padding: 0 0 0 20px;
+}
+.mainnav .xinlang p a {
+    color: #FFFFFF;
+}
+.mainnav .xinlang p a:hover {
+    text-decoration: underline;
+}
+
+.service {
+    background: url("images/service_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/service_bg.gif*/ no-repeat scroll 0 0 #269EFF;
+    height: 63px;
+    padding: 75px 0 0 32px;
+    width: 948px;
+}
+.service h1 {
+    color: #5DA0FB;
+    font-family: "微软雅黑";
+    font-size: 36px;
+    font-weight: normal;
+    width: 80px;
+}
+.service ul {
+    margin: 9px 0 0;
+    width: 120px;
+}
+.service li {
+    color: #4F4F4F;
+    height: 21px;
+    width: 120px;
+}
+.servicea {
+    border-bottom: 1px dashed #11B6FF;
+    border-top: 1px dashed #11B6FF;
+    height: 52px;
+    margin: 0 34px 0 0;
+    width: 200px;
+}
+.serviceb {
+    border-bottom: 1px dashed #11B6FF;
+    border-top: 1px dashed #11B6FF;
+    height: 52px;
+    margin: 0 48px 0 0;
+    width: 200px;
+}
+.servicec {
+    border-bottom: 1px dashed #11B6FF;
+    border-top: 1px dashed #11B6FF;
+    height: 52px;
+    margin: 0 36px 0 0;
+    width: 200px;
+}
+.serviced {
+    border-bottom: 1px dashed #11B6FF;
+    border-top: 1px dashed #11B6FF;
+    height: 52px;
+    width: 200px;
+}
+.foottel {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/css/images/foottel.gif*/ no-repeat scroll center center transparent;
+    height: 60px;
+    margin: 14px 0 0 50px;
+    padding: 0 0 0 174px;
+}
+.foottel p {
+    color: #0E8AD2;
+    font-family: "微软雅黑";
+    font-size: 30px;
+    padding: 25px 0 0 300px;
+}
+
+.footnav {
+    margin: 20px 0 0;
+    padding: 0 0 0 13px;
+    width: 967px;
+}
+.footnav h1 {
+    color: #3F7F00;
+    font-size: 14px;
+    width: 110px;
+}
+.footnav p {
+    color: #0077F3;
+    font-size: 14px;
+    width: 857px;
+}
+.footnav p a {
+    color: #0077F3;
+}
+.footnav p a:hover {
+    color: #3F7F00;
+}
+.footdestination {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #EAEAEA;
+    margin: 12px 0 0;
+    padding: 7px 0 7px 17px;
+    width: 961px;
+}
+.bottomdestination {
+    margin: 5px 0 0;
+    width: 950px;
+}
+.bottomdestination h1 {
+    color: #838383;
+    font-size: 12px;
+    width: 93px;
+}
+.bottomdestination ul {
+    width: 840px;
+}
+.bottomdestination ul.br {
+    border-bottom: 1px solid #E7E7E7;
+}
+.bottomdestination li {
+    color: #838383;
+    height: 19px;
+    padding: 0 17px 0 0;
+    width: auto;
+}
+.bottomdestination li a {
+    color: #838383;
+}
+.bottomdestination li a:hover {
+    color: #FF0000;
+}
+.copyright {
+    margin: 15px 0 0;
+    width: 980px;
+}
+.copyrightpic {
+    padding: 0 0 0 114px;
+    width: 866px;
+}
+.copyrightpic h1 {
+    font-size: 0;
+    width: 226px;
+}
+.copyrightpic ul {
+    margin: 20px 0 0;
+    width: 640px;
+}
+.copyrightpic li {
+    padding: 0 10px 0 0;
+}
+.copyrighttext {
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 10px 0 0;
+    width: 980px;
+}
+.copyrighttext p {
+    color: #404040;
+    padding: 0 0 10px;
+    text-align: center;
+    width: 980px;
+}
+.copyrighttext p span {
+    color: #0000FF;
+    font-weight: bold;
+}
+.copyrighttext h1 {
+    color: #404040;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 20px 0 0;
+    text-align: center;
+    width: 980px;
+}
+
+.monthcommend {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/css/images/monthcomend_bg2.gif*/ repeat-x scroll center bottom #FEF8E8;
+    height: 69px;
+    padding: 11px 0 0 28px;
+    width: 952px;
+}
+.channelnav {
+    height: 20px;
+    padding: 10px 0 0 18px;
+    width: 962px;
+}
+.channelnav p {
+    color: #575757;
+    width: 320px;
+}
+.channelnav p a {
+    color: #575757;
+}
+.channelnav p a:hover {
+    color: #FF0000;
+}
+.channelnav ul {
+    width: 530px;
+}
+.channelnav li {
+    color: #B5B5B5;
+    width: 530px;
+}
+.channelnav li a {
+    color: #0053AA;
+}
+.channelnav li a:hover {
+    color: #FF0000;
+}
+.daycommend {
+    background: url("images/daycommend_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/daycommend_bg.gif*/ no-repeat scroll 0 56px transparent;
+    border: 1px solid #BFDCF2;
+    width: 978px;
+}
+.daycommendtop {
+    background: url("images/daycommendtop_bg.jpg")/*tpa=http://www.btgbj.com/jic/css/images/daycommendtop_bg.jpg*/ no-repeat scroll right bottom #E6F2FF;
+    height: 56px;
+    padding: 0 0 0 17px;
+    width: 961px;
+}
+.daycommendtitle {
+    margin: 17px 0 0;
+    width: 246px;
+}
+.daycommendshortlist {
+    width: 715px;
+}
+.daycommendshortlist h1 {
+    color: #0651AC;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    height: 28px;
+    line-height: 28px;
+    width: 715px;
+}
+.daycommendshortlist h1 span {
+    color: #4A4A4A;
+}
+.daycommendshortlist h1 a {
+    color: #0651AC;
+}
+.daycommendshortlist h1.c1 {
+    color: #E23B08;
+}
+.daycommendshortlist h1.c1 a {
+    color: #E23B08;
+}
+.daycommendshortlist h1 a:hover {
+    color: #FF0000;
+}
+.daycommendwrap {
+    background: url("images/daycommendwrap_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/daycommendwrap_bg.gif*/ repeat scroll 0 0 transparent;
+    margin: 15px 0 0;
+    padding: 0 0 7px 9px;
+    width: 969px;
+	overflow:auto;zoom:1;
+}
+.daycommendlistwrap {
+    margin: 0 10px 0 1px;
+    width: 312px;
+}
+.daycommend3{margin:0;}
+.daycommendlistall {
+    width: 312px;
+}
+.daycommendlisttitle {
+    background: none repeat scroll 0 0 #E6F2FF;
+    height: 40px;
+    width: 312px;
+}
+.daycommendlisttitle h1 {
+    color: #0651AC;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 40px;
+    text-align: center;
+    width: 312px;
+}
+.daycommendlist {
+    margin: 7px 0 0;
+    width: 312px;
+}
+.daycommendlist ul {
+    overflow:hidden;
+    width: 312px;
+}
+.daycommendlist li {
+    border-top: 1px dashed #DADADA;
+    height: 88px;
+    margin: -1px 0 0;
+    padding: 10px 0 0;
+    width: 312px;
+}
+.daycommendpic {
+    height: 77px;
+    position: relative;
+    width: 151px;
+}
+.daycommendpic img {
+    height: 74px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 142px;
+    z-index: 2;
+}
+.daycommendpic cite {
+    color: #FFFFFF;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 16px;
+    left: 0;
+    padding: 2px 0 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 58px;
+    z-index: 3;
+}
+.daycommendpic cite.t1 {
+    background: none repeat scroll 0 0 #0049F1;
+}
+.daycommendpic cite.t2 {
+    background: none repeat scroll 0 0 #F10060;
+}
+.daycommendpic cite.t3 {
+    background: none repeat scroll 0 0 #00B4F1;
+}
+.daycommendpic cite.t4 {
+    background: none repeat scroll 0 0 #F13D00;
+}
+.daycommendtext {
+    width: 160px;
+}
+.daycommendtext h1 {
+    color: #4D5353;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 4px 0 0;
+    width: 160px;
+	height:15px;
+	overflow:hidden;
+}
+.daycommendtext h1 a {
+    color: #4D5353;
+}
+.daycommendtext h1 a:hover {
+    color: #FF0000;
+}
+.daycommendtext p {
+    color: #7B7B7B;
+    margin: 3px 0 0;
+    width: 160px;
+	height:38px;
+	line-height:18px;
+	overflow:hidden;
+}
+.daycommendtext h2 {
+    color: #FF7A17;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 6px 0 0;
+    text-align: center;
+    width: 160px;
+}
+.daycommendtext h2 em {
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+/*.daycommendnav {
+    height: 14px;
+    margin: 5px 0 0;
+    padding: 0 0 0 141px;
+    width: 171px;
+}
+*/
+.daycommendnav ul {
+    width: 171px;
+}
+.daycommendnav li {
+    background: url("images/focus_off.gif")/*tpa=http://www.btgbj.com/jic/css/images/focus_off.gif*/ no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    font-size: 0;
+    height: 5px;
+    margin: 0 0 0 7px;
+    overflow: hidden;
+    width: 5px;
+}
+.daycommendnav li.selected {
+    background: url("images/focus_on.gif")/*tpa=http://www.btgbj.com/jic/css/images/focus_on.gif*/ no-repeat scroll 0 0 transparent;
+}
+.showmoredaycommend {
+    width: 312px;
+}
+.showmoredaycommend p {
+    color: #FF2400;
+    text-align: center;
+    width: 312px;
+}
+.showmoredaycommend p a {
+    color: #0651AC;
+    text-decoration: underline;
+}
+.showmoredaycommend p a:hover {
+    color: #FF2400;
+    text-decoration: underline;
+}
+.content {
+    margin: 8px 0 0;
+    width: 980px;
+}
+.mainleft {
+    width: 267px;
+}
+.destinationnav {
+    border: 1px solid #C9E1F0;
+    width: 265px;
+	margin-top:0;
+}
+.destinationnavtitle {
+    background: url("images/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 36px;
+    padding: 0 0 0 24px;
+    width: 241px;
+}
+.destinationnavtitle h1 {
+    background: url("images/destinationnavtitle_h1_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/destinationnavtitle_h1_bg.gif*/ no-repeat scroll 0 7px transparent;
+    color: #0651AC;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    height: 28px;
+    padding: 8px 0 0 41px;
+    width: 200px;
+}
+.destinationnavintro {
+    padding: 10px 0 10px 11px;
+    width: 254px;
+}
+.destinationnavintro h1 {
+    color: #D11C0E;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    width: 250px;
+}
+.destinationnavintro p {
+    color: #3B3B3B;
+    line-height: 16px;
+    margin: 6px 0 0;
+    padding: 0 0 0 10px;
+    width: 240px;
+}
+.destinationnavlistall {
+    width: 265px;
+}
+.destinationnavlistall ul {
+    width: 265px;
+}
+.destinationnavlistall li {
+    width: 265px;
+}
+.destinationnavname {
+    background: url("images/arrow01.gif")/*tpa=http://www.btgbj.com/jic/css/images/arrow01.gif*/ no-repeat scroll 258px 12px #E6F5FF;
+    border-top: 1px solid #7DC5F4;
+    cursor: pointer;
+    height: 20px;
+    padding: 6px 0 0 12px;
+    width: 253px;
+}
+.destinationnavname h1 {
+    background: url("images/point01.gif")/*tpa=http://www.btgbj.com/jic/css/images/point01.gif*/ no-repeat scroll 0 5px transparent;
+    color: #0651AC;
+    font-size: 14px;
+    padding: 0 0 0 13px;
+    width: 240px;
+}
+.destinationnavlist {
+    border-top: 1px solid #7DC5F4;
+    display: none;
+    padding: 14px 0 4px;
+    width: 265px;
+}
+.destination {
+    padding: 0 2px 0 3px;
+    width: 260px;
+}
+.destination h1 {
+    color: #444444;
+    font-size: 12px;
+    text-align: right;
+}
+.destination a {
+    color: #606060;
+}
+.destination a:hover {
+    color: #006CFF;
+    text-decoration: underline;
+}
+.destination dl {
+    white-space: nowrap;
+    width: 190px;
+}
+.destination dd {
+    color: #BFBFBF;
+    height: 24px;
+    padding: 0 12px 0 0;
+    width: auto;
+}
+
+.mainright {
+    padding: 0 0 0 10px;
+    width: 703px;
+}
+.hotdestinationwrap {
+    background: none repeat scroll 0 0 #61D9FF;
+    padding: 0 4px 4px;
+    width: 695px;
+}
+.hotdestination {
+    background: none repeat scroll 0 0 #FCFDFF;
+    border: 1px solid #7FC5ED;
+    margin: 4px 0 0;
+    padding: 1px;
+    width: 691px;
+}
+.hotdestinationtop {
+    background: url("images/hotdestinationtop_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/hotdestinationtop_bg.gif*/ no-repeat scroll 7px 6px #FFCF23;
+    height: 27px;
+    padding: 4px 0 0;
+    width: 691px;
+}
+.hotdestinationtitle {
+    width: 130px;
+}
+.hotdestinationtitle h1 {
+    color: #2E2E2E;
+    font-size: 14px;
+    height: 14px;
+    overflow: hidden;
+    text-align: right;
+    width: 130px;
+}
+.hotdestinationtitle p {
+    color: #363636;
+    font-family: Arial,Helvetica,sans-serif;
+    height: 12px;
+    overflow: hidden;
+    text-align: right;
+    width: 130px;
+}
+.hotdestinationtopright {
+    padding: 6px 0 0 37px;
+    width: 524px;
+}
+.hotdestinationtopright p {
+    color: #3C3C3C;
+    width: 524px;
+}
+.hotdestinationtopright p span {
+    color: #0045F4;
+}
+.hotdestinationsort {
+    margin: 15px 0 0;
+    padding: 0 5px;
+    width: 681px;
+}
+.continentnav {
+    padding: 0 0 0 4px;
+    width: 677px;
+}
+.continentnav ul {
+    width: 677px;
+}
+.continentnav li {
+    height: 30px;
+    margin: 0 15px 0 0;
+}
+.continentnav li a {
+    color: #0175F7;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 21px;
+    padding: 3px 9px 0;
+}
+.continentnav li a:hover,.continentnav li a.selected {
+    background: url("images/continentnav_a_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/continentnav_a_bg.gif*/ no-repeat scroll center center transparent;
+    color: #FFFFFF;
+}
+.linesortselect {
+    background: url("images/line02.gif")/*tpa=http://www.btgbj.com/jic/css/images/line02.gif*/ repeat-x scroll center top transparent;
+    padding: 5px 0 0 8px;
+    width: 673px;
+}
+.linesortselect h1 {
+    color: #136EC3;
+    font-size: 12px;
+    margin: 3px 0 0;
+    width: 78px;
+}
+.linesortselect ul {
+    width: 590px;
+}
+.linesortselect li {
+    color: #3C3C3C;
+    font-weight: bold;
+    height: 22px;
+    margin: 0 15px 0 0;
+}
+.linesortselect li a {
+    color: #3C3C3C;
+    float: left;
+    height: 15px;
+    padding: 3px 6px 0;
+}
+.linesortselect li a:hover, .linesortselect li a.selected {
+    background: none repeat scroll 0 0 #FAECA6;
+    color: #3C3C3C;
+}
+.hotdestinationtips {
+    margin: 5px 0 0;
+    width: 695px;
+}
+.hotdestinationtips h1 {
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 16px;
+    text-align: center;
+    width: 695px;
+}
+.linewrap {
+    margin: 10px 0 0;
+    width: 703px;
+}
+.linelisttitle {
+    background: url("images/linetitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/linetitle_bg.gif*/ repeat scroll 0 0 transparent;
+    border: 1px solid #CACCC7;
+    height: 22px;
+    padding: 10px 0 0 18px;
+    width: 683px;
+	margin-top:10px;
+	float:none;
+}
+.linelisttitle h1 {
+    color: #505050;
+    font-size: 14px;
+    height: 21px;
+    padding: 0 20px 0 0;
+}
+.linelisttitle p {
+    color: #1D55C7;
+    font-size: 14px;
+    font-weight: bold;
+    height: 21px;
+}
+.linelisttitle p a {
+    color: #1D55C7;
+}
+.linelisttitle p a:hover {
+    color: #FF2A00;
+}
+.linelisttitle p span {
+    color: #FF2A00;
+}
+.linesortinfo {
+   
+    background: url("images/line04.gif")/*tpa=http://www.btgbj.com/jic/css/images/line04.gif*/ repeat-x scroll center top #F6FFFE;
+    border:1px solid #C6E5F6;
+    height: 18px;
+    padding: 10px 0 0 25px;
+    width: 676px;
+}
+.linesortinfo ul {
+    width: 666px;
+}
+.linesortinfo li {
+    color: #505050;
+    font-weight: bold;
+    height: 18px;
+}
+.linesortinfo li.w1 {
+    width: 180px;
+}
+.linesortinfo li.w2 {
+    width: 252px;
+}
+.linesortinfo li.w3 {
+    color: #3366CC;
+    width: 56px;
+}
+.linesortinfo li.w4 {
+    color: #3366CC;
+    width:110px;
+}
+.linesortinfo li.w5 {
+    color: #3366CC;
+    width: 52px;
+}
+.linelist {   
+    background: none repeat scroll 0 0 #FDFDFD;
+    border:1px solid #D6D6D6;
+    width: 701px;
+}
+.linelist ul {
+    overflow: hidden;
+    width: 701px;
+}
+.linelist li {
+    border-top: 1px solid #D6D6D6;
+    margin: -1px 0 0;
+    padding: 12px 0 8px 20px;
+    width: 681px;
+}
+.linenumber {
+    margin: 6px 0 0;
+    width: 80px;
+}
+.linenumber p {
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    width: 80px;
+}
+.linename {
+    width: 355px;
+}
+.linename h1 {
+    color: #065AF4;
+    font-size: 14px;
+    font-weight: normal;
+    height: 20px;
+    line-height: 26px;
+    width: 360px;
+	 overflow:hidden;
+}
+.linename h1 cite {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 2px 5px;
+    vertical-align: top;
+}
+.linename h1 cite.tp1 {
+    background: none repeat scroll 0 0 #0049F1;
+}
+.linename h1 cite.tp2 {
+    background: none repeat scroll 0 0 #F13400;
+}
+.linename h1 cite.tp3 {
+    background: none repeat scroll 0 0 #F1A800;
+}
+.linename h1 a {
+    color: #065AF4;
+}
+.linename h1 a:hover {
+    color: #FF0000;
+}
+.linename p {
+    color: #888888;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    width: 350px;
+}
+.lineday {
+    margin: 7px 0 0;
+    padding: 0 20px 0 0;
+    width: 32px;
+}
+.lineday p {
+    color: #4E5251;
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    width: 32px;
+}
+.linetime {
+    margin: 8px 0 0;
+    width: 100px;
+}
+.linetime p {
+    color: #4E5251;
+    width: 100px;
+}
+.linetime p a {
+    color: #2886EB;
+}
+.linetime p a:hover {
+    color: #FF0000;
+}
+.linetime p span {
+    color: #4E5251;
+}
+.linetime p span a {
+    color: #4E5251;
+}
+.lineprice {
+    margin: 4px 0 0;
+    width: 58px;
+}
+.lineprice p {
+    color: #FF4800;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    width: 58px;
+}
+.linelist ul li.tuanqi{padding:0 0 0 160px;width:521px;}
+.linelist ul li.tuanqi a{line-height:22px;height:22px;display:inline-block;}
+.linelist ul li.tuanqi a strong{color:#FF6600;}
+
+
+

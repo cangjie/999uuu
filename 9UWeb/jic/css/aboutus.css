@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.content {margin:6px 0 0 0;width:998px;overflow:hidden;}
+
+div.mainleft {width:267px;}
+div.mainright {float:right;width:724px;overflow:hidden;}
+div.leftnavtitle {float:none;height:21px;padding:8px 0 0 0;border:1px solid #ccc;border-bottom:0;background:#ececec;text-align: center;}
+.leftnavtitle h1 {float:none;width:140px;font-size:14px;color:#333;margin:0 auto;}
+.leftnavtitle h1 span {font-size:12px;font-weight:normal;color:#999;font-family:Arial, Helvetica, sans-serif;}
+div.leftnav {float:none;border:1px solid #ccc;border-top:0;border-bottom:0;}
+.leftnav ul {float:none;}
+.leftnav li {float:none;border-bottom:1px solid #ccc;color:#333;}
+.leftnav h1:hover{background:url("../images/leftnav_h1_bg.gif")/*tpa=http://www.btgbj.com/jic/images/leftnav_h1_bg.gif*/ repeat-x top;}
+.leftnav h1:hover a:hover{color:#fff;}
+.leftnav li h1 {float:none;height:20px;padding:9px 0 0 67px;background:#ececec;font-size:12px;color:#333;}
+.leftnav li h1 a {color:#333;}
+.leftnav li h1 span {font-size:12px;font-weight:normal;color:#999;font-family:Arial, Helvetica, sans-serif;}
+.leftnav li p {float:none;height:21px;line-height: 21px;
+    padding-left: 80px;
+    vertical-align: middle;border-top:1px solid #ccc;color:#333;}
+.leftnav li p a {float:none;color:#333;}
+.leftnav li a:hover {color:#f00;}
+.leftnav li h1.selected {background:url("../images/leftnav_h1_bg.gif")/*tpa=http://www.btgbj.com/jic/images/leftnav_h1_bg.gif*/ repeat-x top;}
+.leftnav li h1.selected a {color:#fff;}
+.leftnav li h1.selected span {color:#fff;}
+
+div.righttitle {float:none;width:675px;height:30px;padding:9px 0 0 29px;border:1px solid #dadada;background:url("../images/righttitle_bg2.gif")/*tpa=http://www.btgbj.com/jic/images/righttitle_bg2.gif*/;}
+.righttitle h1 {float:none;font-size:18px;font-weight:normal;font-family:"微软雅黑";color:#424242;}
+div.righttext {float:none;width:644px;padding:26px 30px 20px;border:1px solid #dadada;border-top:0;font-size:14px;line-height:2em;}
+
+.righttext div,.righttext p,.righttext img,.righttext ul,.righttext li,.righttext h1,.righttext h2,.righttext dl,.righttext dt,.righttext dd,.righttext h3 {float:none;}
+.righttext p {color:#666;}
+.righttext p b {font-size:12px;font-weight:bold;color:#f60;}
+.righttext .textcontent2 p {color:#000;}
+.righttext .textcontent2 p.title {color:#61991c;font-weight:bold;}
+.righttext .textcontent2 p b {font-size:14px;font-weight:bold;color:#f60;}
+

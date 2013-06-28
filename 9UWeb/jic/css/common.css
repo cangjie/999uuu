@@ -1,0 +1,1889 @@
+﻿@charset "utf-8";
+/* common */
+body {background:#fff url("../img/css/top_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/top_bg.gif*/ repeat-x top;font-size:12px;font-family:"宋体";color:#4c4c4c;}
+body,div,ul,ol,li,p,span,var,em,a,img,h1,h2,h3,h4,h5,h6,dl,dt,dd,form,input,br,textarea,select,option,strong{margin:0;padding:0;}
+ul li{list-style:none;}
+a{text-decoration:none;}
+var,em{font-style:normal;}
+a img{border:none;}
+a {color:#5a5a5a;text-decoration:none;}
+a:hover {color:#ff3000;text-decoration:none;}
+.hidden {display:none;}
+input,textarea,select{font-size:12px;font-family:"宋体"}
+ul {list-style:none}
+h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd {float:left;}
+cite,em {font-style:normal;}
+/* header */
+.wrapper{margin:0 auto;width:985px;overflow:auto;zoom:1;}
+
+.wrapper div {float:left;}
+.top {margin:5px 0 0 0;width:980px;height:23px;overflow:hidden;}
+.top p {width:165px;color:#000;white-space:nowrap; line-height:23px; color:#004eff;  padding-left:25px;}
+.top p span{ font-weight:bold}
+.top .p1{ width: 345px;background:url("../img/css/phone.png")/*tpa=http://www.btgbj.com/jic/img/css/phone.png*/ left center no-repeat; height:19px;}
+.top p a {color:#666;}
+.top p a:hover {color:#ff3000;}
+.top ul {float:right;width:410px;}
+.top li {color:#666;}
+.top li.landing_showed{padding-top:3px;padding-right: 10px;}
+.top li.landing_showed span{padding-right:8px;}
+.top li.landing_showed a{color:#ff3000;}
+.top ul li.loginli{margin-top:4px;*margin-top:2px !important;}
+.top ul li.loginli a{margin-right:10px;}
+.top li.nobg {padding:0 0 0 10px;background:none;}
+.top li a {color:#666;}
+.top li a span {float:left;margin:4px 0 0 0;padding:0 10px 0 0;color:#666;}
+.top li a span.pd0 {padding:0;background:none;}
+.top li a:hover {color:#ff3000;}
+.top li a:hover span {color:#ff3000;cursor:pointer;}
+.top li h1 {height:15px;padding:3px 6px 0 25px;border:1px solid #d8d8d8;background:#fff url("../img/css/cart_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/cart_bg.gif*/ no-repeat 7px 3px;font-size:12px;font-weight:normal;color:#666;}
+.top li h1 span {margin:0;}
+.top li h1 cite {font-weight:bold;color:#f50;}
+
+.topbanner {width:980px;position:relative;}
+.topbanner p{ color: #0E8AD2;
+    font-family: "微软雅黑";
+    font-size: 28px;
+    left: 485px;
+    position: absolute;
+    top: 22px;}
+.logo {width:377px;}
+.tel {margin:5px 0 0 0;width:324px;}
+.tel p {width:324px;}
+.tel p span {float:left;padding:2px 0 0 10px;white-space:nowrap;color:#0b85d2;}
+.tel h1 {width:324px;font-size:29px;font-weight:normal;color:#0e8ad2;font-family:"微软雅黑";}
+
+.mainnav {width:980px;height:39px;background:url("../img/css/mainnav_bg0.gif")/*tpa=http://www.btgbj.com/jic/img/css/mainnav_bg0.gif*/ repeat-x bottom; position:relative; z-index:100;}
+.mainnavleft {width:10px;height:39px;background:url("../img/css/mainnav_left0.gif")/*tpa=http://www.btgbj.com/jic/img/css/mainnav_left0.gif*/ no-repeat 0 bottom;font-size:0;overflow:hidden;position:absolute;left:0px;top:0;}
+.mainnavright {width:10px;height:39px;background:url("../img/css/mainnav_right0.gif")/*tpa=http://www.btgbj.com/jic/img/css/mainnav_right0.gif*/ no-repeat right bottom;font-size:0;overflow:hidden;position:absolute;right:0px;top:0;}
+.mainnav ul {width:960px;position:absolute;left:10px;top:0;}
+.mainnav li {_display:inline;margin:0 2px 0 0;height:36px;}
+.mainnav li a {float:left;height:23px;padding:13px 13px 0;color:#fff;}
+.mainnav ul li.selected {background:url("../img/css/mainnav_a_bg2.gif")/*tpa=http://www.btgbj.com/jic/img/css/mainnav_a_bg2.gif*/ repeat-x bottom;}
+.mainnav ul li.selected a{color:#8f3d00;}
+.mainnav li.current {margin:-2px 2px 0 0;height:38px;}
+.mainnav li.current a {height:23px;padding:15px 13px 0;background:url("../img/css/mainnav_a_bg2.gif")/*tpa=http://www.btgbj.com/jic/img/css/mainnav_a_bg2.gif*/ repeat-x bottom;font-weight:bold;color:#8f3d00;}
+.mainnav li.current a:hover {background:url("../img/css/mainnav_a_bg2.gif")/*tpa=http://www.btgbj.com/jic/img/css/mainnav_a_bg2.gif*/ repeat-x bottom;font-weight:bold;color:#8f3d00;}
+.mainnav .xinlang{ position:absolute; background:url("../../index.php")/*tpa=http://www.btgbj.com/jic/img/css/xinlang.png*/ no-repeat;  right:40px; top:8px; z-index:999}
+.mainnav .xinlang p{height:32px; padding:0px 0 0 20px; font-size:14px; font-weight:bold; font-family:"微软雅黑"}
+.mainnav .xinlang p a{ color:#fff;}
+.mainnav .xinlang p a:hover{ text-decoration:underline}
+.mainnav li a:hover {color:#8F3D00;background:url("../img/css/mainnav_a_bg2.gif")/*tpa=http://www.btgbj.com/jic/img/css/mainnav_a_bg2.gif*/ repeat-x bottom;}
+
+.foot {margin:10px 0 0 0;width:980px;}
+.service {width:948px;height:63px;padding:75px 0 0 32px;background:#269eff url("../img/css/service_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/service_bg.gif*/ no-repeat 0 0;}
+.service h1 {width:80px;font-size:36px;font-weight:normal;color:#5da0fb;font-family:"微软雅黑";}
+.service ul {margin:9px 0 0 0;width:120px;}
+.service li {width:120px;height:21px;color:#4f4f4f;}
+.servicea {_display:inline;margin:0 34px 0 0;width:200px;height:52px;border-top:1px dashed #11b6ff;border-bottom:1px dashed #11b6ff;}
+.serviceb {_display:inline;margin:0 48px 0 0;width:200px;height:52px;border-top:1px dashed #11b6ff;border-bottom:1px dashed #11b6ff;}
+.servicec {_display:inline;margin:0 36px 0 0;width:200px;height:52px;border-top:1px dashed #11b6ff;border-bottom:1px dashed #11b6ff;}
+.serviced {width:200px;height:52px;border-top:1px dashed #11b6ff;border-bottom:1px dashed #11b6ff;}
+
+/* header end */
+/* left_side_nav */
+.content {margin:6px 0 0 0;width:980px;overflow:hidden;}
+.left_side {width:267px;}
+.leftnews {margin:10px 0 0 0;width:265px;padding:0 0 8px 0;border:1px solid #c9e1f0;background:#fdffff;}
+.leftnewstitle {width:252px;height:30px;padding:6px 0 0 13px;background:url("../img/css/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/lefttitle_bg.gif*/ repeat-x;border-bottom:1px solid #c9e1f0;}
+.leftnewstitle h1 {width:252px;font-size:16px;font-weight:normal;color:#0e4c97;font-family:"微软雅黑";}
+.leftnewslist {margin:5px 0 0 0;width:265px;overflow:hidden;}
+.leftnewslist ul {width:260px;}
+.leftnewslist li {margin:-1px 0 0 0;width:260px;height:20px;padding:8px 0 0 0;background:url("../img/css/line3.gif")/*tpa=http://www.btgbj.com/jic/img/css/line3.gif*/ repeat-x left top;color:#979798;}
+.leftnewslist li a {color:#666;display: inline-block;
+    height: 12px;
+    overflow: hidden;
+    width: 212px;}
+
+
+
+.ticket {margin:10px 0 0 0;width:265px;border:1px solid #c9e1f0;background:#fdffff;}
+.tickettitle {width:252px;height:30px;padding:6px 0 0 13px;background:url("../img/css/tickettitle_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/tickettitle_bg.gif*/ repeat-x;border-bottom:1px solid #c9e1f0;}
+.tickettitle h1 {width:252px;font-size:16px;font-weight:normal;color:#0e4c97;font-family:"微软雅黑";}
+.toplist {width:261px;padding:0 0 10px 4px;}
+.toplist .first {margin:15px 0 0 0;width:229px;height:79px;padding:0 0 0 26px;background:url("../img/css/toplist_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/toplist_bg.gif*/ no-repeat 6px 0;}
+.toplist .first .firstpic {width:108px;}
+.toplist .first .firstpic img {width:96px;height:66px;border:1px solid #d0d0d0;}
+.toplist .first .firsttext {width:121px;}
+.toplist .first .firsttext h1 {width:121px;height:22px;font-size:14px;color:#639805;}
+.toplist .first .firsttext h1 a {color:#639805;}
+.toplist .first .firsttext h1 a:hover {color:#f00;}
+.toplist .first .firsttext h2 {width:121px;height:18px;font-size:12px;font-weight:normal;color:#ff6406;}
+.toplist .first .firsttext dl {width:40px;}
+.toplist .first .firsttext dd {width:40px;height:16px;color:#888;}
+
+.toplist ul {width:257px;background:url("../img/css/toplist_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/toplist_bg.gif*/ no-repeat 6px -79px;}
+.toplist li {width:192px;height:28px;padding:0 28px 0 37px;background:url("../img/css/line2.gif")/*tpa=http://www.btgbj.com/jic/img/css/line2.gif*/ repeat-x left top;color:#999;}
+.toplist li span {float:left;margin:10px 0 0 0;color:#08549f;}
+.toplist li span a {color:#08549f;}
+.toplist li span a:hover {color:#f00;}
+.toplist li cite {float:right;margin:6px 0 0 0;}
+.toplist li cite em {color:#ff6406;font-family:"微软雅黑";}
+
+.neworder {margin:10px 0 0 0;width:265px;border:1px solid #c9e1f0;background:#fdffff;}
+.newordertitle {width:252px;height:30px;padding:6px 0 0 13px;background:url("../img/css/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/lefttitle_bg.gif*/ repeat-x;border-bottom:1px solid #c9e1f0;}
+.newordertitle h1 {width:252px;font-size:16px;font-weight:normal;color:#0e4c97;font-family:"微软雅黑";}
+.neworderlist {width:245px;padding:0 0 0px 10px;}
+.neworderlist ul {width:255px;overflow:hidden;}
+.neworderlist li {margin:-1px 0 0 0;width:245px;padding:13px 0 12px 0;background:url("../img/css/line1.gif")/*tpa=http://www.btgbj.com/jic/img/css/line1.gif*/ repeat-x left top;}
+.neworderlist li h1 {width:245px;height:19px;font-size:12px;font-weight:normal;color:#666;}
+.neworderlist li h1 span {color:#f60;}
+.neworderlist li h1 a {color:#36c;text-decoration:underline;}
+.neworderlist li h1 a:hover {color:#f00;text-decoration:underline;}
+.neworderlist li p {width:245px;line-height:18px;color:#36c;}
+.neworderlist li p a {color:#36c;text-decoration:underline;}
+.neworderlist li p a:hover {color:#f00;text-decoration:underline;}
+
+.adviser {margin:10px 0 0 0;width:265px;padding:0 0 8px 0;border:1px solid #c9e1f0;background:#fdffff;}
+.advisertitle {width:252px;height:25px;padding:6px 0 0 13px;background:url("../img/css/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/lefttitle_bg.gif*/ repeat-x;border-bottom:1px solid #c9e1f0;}
+.advisertitle h1 {width:252px;font-size:16px;font-weight:normal;color:#0e4c97;font-family:"微软雅黑";}
+.adviserintro {margin:10px 0 0 0;width:255px;padding:0 0 0 10px;}
+.adviserintro p {width:250px;line-height:18px;color:#2e2e2e;}
+.adviserwrap {_display:inline;margin:10px 2px 0;width:261px;}
+.advlist{height:250px;}
+.adviserlist {width:240px;height:64px;padding:12px 0 0 21px;background:#f5f5f5;}
+.adviserlist ul {width:240px;}
+.adviserlist li {_display:inline;margin:0 3px 0 0;width:52px;height:57px;}
+.adviserlist li img {margin:2px 0 0 3px;width:46px;height:46px;opacity:0.6;-moz-opacity:0.6;filter:alpha(opacity=60);}
+.adviserlist li.selected {background:url("../img/css/managerlist_li_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/managerlist_li_bg.gif*/ no-repeat 0 0;}
+.adviserlist li.selected img {opacity:1;-moz-opacity:1;filter:alpha(opacity=100);}
+
+.advisertext {width:240px;padding:12px 0 0 21px;}
+.advisertext p {width:230px;line-height:22px;color:#36c;}
+.advisertext p a {color:#36c;}
+.advisertext p span {font-weight:bold;}
+
+.leftarticle {margin:10px 0 0 0;width:265px;padding:0 0 8px 0;background:#fdffff;}
+.leftarticletitle {width:252px;height:25px;padding:6px 0 0 13px;background:url("../img/css/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/lefttitle_bg.gif*/ repeat-x;border-bottom:1px solid #c9e1f0;}
+.leftarticletitle h1 {width:252px;font-size:16px;font-weight:normal;color:#0e4c97;font-family:"微软雅黑";}
+.leftarticlepic {margin:8px 0 0 0;width:240px;height:100px;padding:13px 0 0 25px;background:#f5f6f6;}
+.leftarticlepic ul {width:240px;height:100px;overflow:hidden;}
+.leftarticlepic li {width:65px;float:left;}
+.leftarticlepic li img {width:52px;height:49px;padding:3px;border:1px solid #cee1e8;}
+.leftarticlepic li p {margin:5px 0 0 0;width:60px;color:#4d4d4d;text-align:center;}
+.leftarticlepic li p a {color:#4d4d4d;}
+.leftarticlepic li p a:hover {color:#f00;}
+.leftarticletext {margin:5px 0 0 0;width:245px;padding:0 7px;overflow:hidden;}
+.leftarticletext ul {width:245px;}
+
+.leftarticletext li span {color:#000;font-family:"微软雅黑";}
+.leftarticletext li cite {color:#f60;font-family:"微软雅黑";}
+.leftarticletext li a {display:inline-block;height:23px;line-height:23px;overflow: hidden;width: 200px;color:#4e9700;}
+.leftarticletext li strong{display:inline-block;height:23px;line-height:23px;overflow: hidden;}
+.leftarticletext li a:hover {color:#f00;}
+.sidenav {width:261px;background:url("../img/css/sidenav_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/sidenav_bg.gif*/;border-bottom:1px solid #7dc5f4;}
+.sidenavtop {width:267px;height:25px;padding:14px 0 0 0;background:url("../img/css/sidenavtitle_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/sidenavtitle_bg.gif*/ no-repeat 0 0;}
+.sidenavtop h1 {width:267px;font-size:14px;color:#fff;text-align:center;}
+.sidenavtitle {width:253px;height:18px;padding:8px 0 0 12px;border:1px solid #7dc5f4;border-bottom:0;background:#e6f5ff url("../img/css/arrow01.gif")/*tpa=http://www.btgbj.com/jic/img/css/arrow01.gif*/ no-repeat 258px 12px;}
+.sidenavtitle h1 {width:39px;padding:0 0 0 14px;background:url("../img/css/point01.gif")/*tpa=http://www.btgbj.com/jic/img/css/point01.gif*/ no-repeat 0 3px;font-size:12px;color:#0069d5;}
+.sidenavtitle h1 a {color:#0069d5;}
+.sidenavtitle ul {width:200px;}
+.sidenavtitle li {height:18px;padding:0 12px 0 0;color:#454545;}
+.sidenavtitle li a {color:#454545;}
+.sidenavtitle li a:hover {color:#db0101;}
+
+
+.area {width:265px;padding:0px 0 0 0;border:1px solid #7dc5f4;border-top:1px solid #d0eafb;border-bottom:0;background:#fff;}
+.area ul {width:265px;}
+.area li {width:265px;background:url("../img/css/line01.gif")/*tpa=http://www.btgbj.com/jic/img/css/line01.gif*/ repeat-x 0 top;position:relative;}
+.area li.nobg {background:none;}
+
+.areatitle {width:265px;padding:8px 0 0 0;background:#fff url("../img/css/arrow01.gif")/*tpa=http://www.btgbj.com/jic/img/css/arrow01.gif*/ no-repeat 258px 12px;position:absolute;left:0;top:1px;z-index:3; }
+
+.areatitle .areashortlist p{ color:#3399FF}
+.areatitle h1 {width:58px;padding:0 12px 0 0;font-size:12px;color:#454545;text-align:right;}
+.areatitle h1 a {color:#454545;}
+.areatitle p {padding:0 12px 0 0;color:#454545;}
+.areatitle p a {color:#454545;}
+.areatitle p a.bianred{color:#FF0000;}
+.z999 {z-index:999;}
+.area li .selected {width:267px;height:18px;padding:7px 0 0 0;border-top:2px solid #7dc4f3;border-bottom:2px solid #7dc4f3;background:#fff;top:0;z-index:999;}
+.area li .selected a {color:#8a8a8a;}
+.area li .selected a:hover {color:#db0101;}
+
+.arealist {display:none;width:676px;padding:4px 20px 20px 14px;background:#fff url("../img/css/arealist_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/arealist_bg.gif*/ repeat-y right;border:2px solid #7dc4f3;position:absolute;left:265px;top:-28px;z-index:100;}
+.arealistleft {width:410px;}
+.hotline {width:410px;overflow:hidden;}
+.hotline dl {margin:0 0 -1px 0;width:410px;}
+.hotline dd {margin:9px 0 0 0;width:400px;padding:0 5px 10px;border-bottom:1px solid #f0f0f0;}
+.hotline dd h1 {width:400px;height:22px;font-size:14px;color:#4273d0;}
+.hotline dd h1 a {color:#4273d0;}
+.hotline dd h1 a:hover {color:#db0101;}
+.hotline dd p {width:400px;color:#646464; line-height:20px}
+.hotline dd span{ float:left; width:50px; margin-right:5px; line-height:20px;}
+
+.arealistright {width:176px;padding:0 0 0 90px;overflow:hidden;}
+.arealistinfo {margin:12px 0 -1px 0;width:176px;padding:0 0 10px 0;border-bottom:1px solid #e1f2f4;}
+.arealistinfo h1 {width:176px;height:18px;font-size:12px;color:#9b7e42;}
+.arealistinfo p {width:176px;line-height:18px;color:#7c7c7c;}
+.arealistinfo p a {color:#7c7c7c;}
+.arealistinfo p a:hover {color:#db0101;}
+
+#arealist1{width:410px;background:#fff;padding:4px 20px 0px 14px;border:2px solid #7dc4f3;position:absolute;left:265px;top:-28px;z-index:2;}
+#arealist1 .other{ width:410px;}
+#arealist1 .other .hotline{width:410px;overflow:hidden;}
+#arealist1 .other .hotline dl{margin:0 0 -1px 0;width:410px;}
+#arealist1 .other .hotline dd{width:400px;border-bottom:1px solid #f0f0f0;}
+#arealist1 .other .hotline dd span{width:45px; float:left;}
+#arealist1 .other .hotline dd .s1{ font-size:14px; font-weight:bold}
+
+.sortnav {_display:inline;margin:0 1px;width:265px;height:20px;padding:10px 0 0 0;background:#c0e5ff;}
+.sortnav p {width:265px;color:#0069d5;text-align:center;}
+.sortnav p a {font-weight:bold;color:#0069d5;}
+.sortnav p a:hover {color:#454545;}
+/*Tourism practical help*/
+.lefttips {margin:6px 0 0 0;width:267px;padding:0 0 10px 0;}
+.lefttips .leftmain {width:253px;padding:8px 0 8px 12px;border:1px solid #ccc; border-top:none;}
+.lefttips h1 {width:265px;height:19px;padding:6px 0 0 5px;background: url("../img/css/sidenavtitle_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/sidenavtitle_bg.gif*/ no-repeat scroll 0 0 transparent;font-size:14px;font-weight:normal;color:#fff;}
+.lefttips .leftmain ul {float:none;margin:6px 0 0 0;padding:0 0 0 4px;}
+.lefttips .leftmain li {float:none;height:20px;line-height:20px;overflow:hidden;padding:1px 0 0 16px;background:url("../img/css/lefttips_li_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/lefttips_li_bg.gif*/ no-repeat 0 3px;color:#000;}
+.lefttips .leftmain li a {color:#000;}
+.lefttips .leftmain li a:hover {color:#f00;}
+/*Guess you like */
+
+.leftcommand h1 {width:265px;height:19px;padding:6px 0 0 5px;background: url("../img/css/sidenavtitle_bg.gif")/*tpa=http://www.btgbj.com/jic/img/css/sidenavtitle_bg.gif*/ no-repeat scroll 0 0 transparent;font-size:14px;font-weight:normal;color:#fff;}
+.leftcommand .leftmain {width:233px;padding:8px 0 10px 32px;border: 1px solid #DDDDDD; border-top:none;}
+.leftcommand .leftmain ul {width:200px;}
+.leftcommand .leftmain li {margin:10px 0 0 0;width:150px;padding:0 0 10px 0px;background:url("../img/css/line1.gif")/*tpa=http://www.btgbj.com/jic/img/css/line1.gif*/ repeat-x bottom;}
+
+
+.leftcommandtext {margin:10px 0 0 0;width:150px;}
+.leftcommandtext p {width:195px;line-height:18px;color:#000;}
+.leftcommandtext p a {color:#000;}
+.leftcommandtext p a:hover {color:#f60;}
+.leftcommandtext h2 {margin:6px 0 0 0;width:150px;font-size:12px;font-weight:normal;color:#666;}
+.leftcommandtext h2 span {font-size:14px;font-weight:bold;color:#f60;font-family:Arial, Helvetica, sans-serif;}
+/*riqijiage*/
+.dateandprice {margin:8px 0 0 0;width:808px;}
+.dateandpricetitle {margin-top:10px;width:682px;height:22px;padding:7px 7px 0 9px;}
+.dateandpricetitle h1 {font-size:14px;color:#346700;}
+.dateandpricetitle h1 span {font-size:12px;font-weight:normal;color:#f00;}
+.dateandpricetitle p {float:right;margin:2px 0 0 0;padding:0 0 0 22px;color:#4e9700;}
+.dateandpricetitle p a {color:#4e9700;text-decoration:underline;}
+.dateandpricetitle p a:hover {color:#f00;text-decoration:underline;}
+.dateandpriceshow {width:700px;}
+
+/* date_price */
+.date_price{overflow:hidden;}
+.date_price li.outli_left{float:left;display:inline;margin-right:12px;}
+.date_price li.ym{border:1px solid #cdcdcd;padding:4px 0 4px 2px;width:340px;height:20px;line-height:20px;vertical-align:middle;text-align:center;color:#070707;} 
+.date_price li.li_pr{position:relative;}
+.date_price li a{float:left;padding-left:16px;background:url("../img/css/left_tou.gif")/*tpa=http://www.btgbj.com/jic/img/css/left_tou.gif*/ 0 5px no-repeat;color:#1e3a79;}
+.date_price li table{border-collapse:collapse;height:368px;height:38px;}
+.date_price li table tr th{border:1px solid #cdcdcd;width:48px;height:19px;line-height:19px;vertical-align:middle;text-align:center;background-color:#f9f9f9;}
+.date_price li table tr td{border:1px solid #cdcdcd;height:48px;*height:47px!important;text-align:center;}
+.date_price li table tr td.four_today{background-color:#efefef;}
+.date_price li table tr td.position{position:relative;background-color:#ffffcf;}
+.date_price li table tr td.position em{color:#f35900;}
+.date_price li table tr td.position var{color:#1e77d3;}
+.On_sale{left: 135px;
+    position: absolute;
+    top: 115px;}
+.date_price li.ym_right a{float:right;background:url("../img/css/right_tou.gif")/*tpa=http://www.btgbj.com/jic/img/css/right_tou.gif*/ 0 5px no-repeat;}
+/* footer */
+.foottel { margin:14px 0 0 50px;width:578px;padding:0 0 0 174px; }
+.qa {width:948px;padding:18px 0 14px 30px;border:1px solid #acd0f9;background:#f8fbff;}
+.qa h1 {height:26px;font-size:14px;color:#0053aa;}
+.qa li {line-height:22px;color:#656565;}
+.qa li a {color:#656565;}
+.qa li a:hover {color:#0053aa;}
+.qa1 {width:167px;border-right:1px solid #d1e0f0;}
+.qa1 h1 {width:167px;}
+.qa1 ul {width:167px;}
+.qa1 li {width:167px;}
+.qa2 {width:143px;padding:0 0 0 30px;border-right:1px solid #d1e0f0;}
+.qa2 h1 {width:143px;}
+.qa2 ul {width:143px;}
+.qa2 li {width:143px;}
+.qa3 {width:160px;padding:0 0 0 30px;border-right:1px solid #d1e0f0;}
+.qa3 h1 {width:160px;}
+.qa3 ul {width:160px;}
+.qa3 li {width:160px;}
+.qa4 {width:160px;padding:0 15px 0 15px;border-right:1px solid #d1e0f0;}
+.qa4 h1 {width:163px;}
+.qa4 ul {width:163px;}
+.qa4 li {width:163px;}
+.qa5 {width:170px;padding:0 15px 0 25px;}
+.qa5 h1 {width:170px;color:#58e339;padding-left:2px;}
+.qa5 ul {width:146px;}
+.qa5 li {width:146px;padding-left:30px;}
+.qa5 li a img{height:110px;}
+.footnav {margin:20px 0 0 0;width:967px;padding:0 0 0 13px;}
+.footnav h1 {width:110px;font-size:14px;margin-top: 2px;
+    text-align: center;}
+.footnav h1 a{color:#3f7f00;}
+.footnav p {width:857px;font-size:14px;color:#0077f3;}
+.footnav p a {color:#0077f3;}
+.footnav p a:hover {color:#3f7f00;}
+
+.footdestination {margin:12px 0 0 0;width:961px;padding:7px 0 7px 17px;border:1px solid #eaeaea;background:#f5f5f5;}
+.bottomdestination {margin:5px 0 0 0;width:950px;}
+.bottomdestination h1 {width:93px;font-size:12px;color:#838383;}
+.bottomdestination ul {width:840px;}
+.bottomdestination ul.br {border-bottom:1px solid #e7e7e7;}
+.bottomdestination li {height:19px;padding:0 17px 0 0;color:#838383; }
+.bottomdestination li a {color:#838383;}
+.bottomdestination li a:hover {color:#f00;}
+
+.friendlink{margin:12px 0 0 0;width:961px;padding:7px 0 7px 17px;border:1px solid #eaeaea;background:#f5f5f5;}
+.friendlink h1{width:93px;font-size:12px;color:#838383;}
+.friendlink ul{width:840px;white-space:nowrap}
+.friendlink ul li{ float:left; height:19px; line-height:19px;color:#838383;padding:0 17px 0 0;}
+.friendlink ul li a{color:#838383;}
+.friendlink ul li a:hover{color:#f00;}
+
+
+.copyright {margin:15px 0 0 0;width:980px;}
+.copyrightpic {width:866px;padding:0 0 0 114px;}
+.copyrightpic h1 {width:226px;font-size:0;}
+.copyrightpic ul {margin:20px 0 0 0;width:640px;}
+.copyrightpic li {padding:0 10px 0 0;}
+.copyrighttext {margin:10px 0 0 0;width:980px;font-family:Arial, Helvetica, sans-serif;}
+.copyrighttext p {width:980px;padding:0 0 10px 0;color:#404040;text-align:center;}
+.copyrighttext p span {font-weight:bold;color:#00f;}
+.copyrighttext h1 {margin:20px 0 0 0;width:980px;font-size:12px;font-weight:normal;color:#404040;text-align:center;}
+/* footer end */
+
+/* pinglun */
+.leftarticle {margin-top: 20px;border:1px solid #C9E1F0;}
+.leftarticle .head {border:1px solid #E0F4B9;height: 30px;width: 720px;background: url("../images/pricereadmetitle_bg.gif")/*tpa=http://www.btgbj.com/jic/images/pricereadmetitle_bg.gif*/ repeat-x scroll center top #62AF1F;}
+.leftarticle .head h2{padding:5px 0 0 25px;color:#fff;}
+.leftarticle .sect{width:720px;border:1px solid #ddd;padding-bottom: 20px;}
+.leftarticle .sect .author{display:inline;margin:20px 0 0 20px;width:650px;font-size:14px;color:#000;background-color:#F3F9ED;padding: 10px 0 0 10px;}
+.leftarticle .sect .topic-content{display:inline;margin:0 20px;width:650px;font-size:14px;color:#0033CC;background-color:#F3F9ED;padding: 10px 0 10px 10px;}
+.leftarticle h1 {height:28px;color:#0E4C97;font-size:16px;}
+
+
+.leftarticle li a {color:#3366CC;}
+.leftarticle li a:hover {color:#f00;}
+.leftarticle .sect form{padding:20px 0 0 20px;}
+.PL .sect{width:698px;}
+.PL .head{width:698px;}
+.PL h1{width:700px;}
+.PL ul{width:700px;}
+.sect form label{display:block;overflow:hidden;}
+.sect form label textarea{float:left;margin-bottom:20px;}
+.sect form label a{float:left;}
+div.errorTip{display:inline;float:left;margin-left:23px;margin-top:5px;padding-top:3px;color:#FF0000; font-weight:bold;}
+
+/*dialog*/
+#dialog {
+   
+    display: none;
+    position: absolute;
+    z-index: 9999;
+}
+#order-pay-dialog h3 {
+    background: none repeat scroll 0 0 #F1F2FF;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-align: left;
+}
+#order-pay-dialog .bd{padding:1px;background:#fff;}
+#order-pay-dialog h3{height:40px;line-height:40px;padding:0 10px;background:#f1f2ff;text-align:left;}
+#order-pay-dialog h3 span{float:right;}
+#order-pay-dialog .close{float:right;width:35px;padding-right:20px;background:url("../img/css/bg-newbie-close.gif")/*tpa=http://www.btgbj.com/jic/img/css/bg-newbie-close.gif*/ no-repeat 100% 50%;*background-position:100% 45%;color:#2f2f2f;cursor:pointer;font-weight:normal;}
+#order-pay-dialog .info{margin:20px 15px 20px;min-height:56px;padding-left:70px;background:url("../img/css/bg-sys-icon-info.gif")/*tpa=http://www.btgbj.com/jic/img/css/bg-sys-icon-info.gif*/ no-repeat 0 0;font-size:16px;font-family: "微软雅黑", arial, sans-serif;display:block;}
+#order-pay-dialog .notice{padding-left:35px; margin:5px 0;}
+#order-pay-dialog .notice input{width:180px;}
+#order-pay-dialog .act{margin:15px 35px 20px;}
+#order-pay-dialog .retry{margin:10px 35px 20px;}
+#order-pay-dialog .retry a{color:#ed145b;}
+input.formbutton{padding:4px 1em;*padding:5px 1.5em 0;border:2px solid;border-color:#fccb9d #e87a11 #e87a11 #fccb9d;background:#FF2C55;color:#fff;letter-spacing:.1em;cursor:pointer;*width:auto;_width:0;*overflow:visible;}
+/*Hint window*/
+div.Hint-window{float:none;border:1px solid #78c41c;width:430px;height:143px;position:absolute;left:50%;top:50%;background:#fff;}
+div.Hint-window-top{float:none;overflow:hidden;margin-bottom:19px;border-bottom:1px solid #8aae68;padding-left:5px;height:32px;background-color:#e8f6dc;line-height:32px;vertical-align:middle;}
+div.Hint-window-top h5{float:left;font-size:14px;}
+div.Hint-window-bot{float:none;}
+
+
+div.Hint-window-top span{background: url("images/closed.gif")/*tpa=http://www.btgbj.com/jic/css/images/closed.gif*/ no-repeat scroll 30px 0 transparent;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    margin: 7px 5px 0 0;
+    vertical-align: middle;
+    width: 50px;cursor:pointer;}
+div.calendar dd span:hover, div.calendar dd span.istrue, div.calendar dd span a:hover{font-size:12px;}
+/*pinglunneirong*/
+.commenttitle {margin-top: 10px;width:677px;height:33px;padding:0px 0 0px 25px;border-bottom:1px solid #dbd9d9;background:#62af1f url("images/pricereadmetitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/pricereadmetitle_bg.gif*/ repeat-x top;}
+.commenttitle h1 {margin:4px 0 0 0;font-size:18px;font-weight:normal;color:#fff;font-family:"微软雅黑";}
+.commentlist {padding:45px 0 0 0;}
+.commentlist li {padding:0 0 10px 0;}
+div.comment {float:none;margin:10px 0 0 0;width:700px;overflow:hidden;}
+div.fabu .login-form{width:700px;}
+div.fabu .login-form form{float:none;padding:50px 64px 12px 64px;}
+div.fabu .login-form form label{display:block;overflow: auto;zoom:1;height:30px;}
+.login-form{height:260px; background-color:#f6f6f6;}
+div.fabu .login-form form label.my-pl h5{float:left;padding-left:24px;height:20px;background:url("images/review.gif")/*tpa=http://www.btgbj.com/jic/css/images/review.gif*/ 0 4px no-repeat;font-size:16px;font-family:"微软雅黑";}
+div.fabu .login-form form label.my-pl p{float:right;color:#113ea5;}
+div.fabu .login-form #forum-reply-form label.my-pl p{float:right;color:#113ea5;}
+div.fabu .login-form form label.my-pl p strong{color:#ff0000;}
+div.fabu .login-form form label a{float:left;color:#113ea5;padding:6px 0 0 12px;}
+div.fabu .login-form form label a.exit:hover{text-decoration:underline;}
+div.fabu .login-form form label span{float:left;padding:6px 7px 0 0;}
+div.fabu .login-form form label input{float:left;width:184px;height:22px;line-height:22px;vertical-align:middle;}
+div.fabu .login-form form .shuru{float:none;}
+div.fabu .login-form form .shuru textarea{width:565px;height:115px;color:#b7b5b5;}
+div.fabu .login-form form .quick-login{float:none; margin-top:14px;overflow:auto;zoom:1;}
+div.fabu .login-form form .quick-login a,div.fabu .login-form form .quick-login input{float:right;width:99px;height:24px;line-height:24px;background:url("images/quick-login.gif")/*tpa=http://www.btgbj.com/jic/css/images/quick-login.gif*/ 0 0 no-repeat;font-size:14px;color:#fff;text-align:center; vertical-align: middle;}
+div.fabu .login-form form .quick-login span{float:left;padding:5px 0;}
+div.fabu .login-form form .quick-login span em{color:#113ea5;cursor:pointer;}
+div.fabu .login-form form .quick-login span em:hover{color:#FF0033;text-decoration:underline;}
+.quick-login input{cursor:pointer;}
+div.fabu .login-form form label span.quick-login a{float:left;margin-left: 10px;padding:0;}
+/*Industry-news Travel-guide */
+h5.industry-top{margin-top: 10px;}
+div.industry-bot{overflow:auto;zoom:1;width:267px;}
+div.industry-news,div.travel-guide{width:255px;padding:15px 0 23px 10px;border:1px solid #16aaa8;background:url("images/guide-bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/guide-bg.gif*/ 0 0 repeat-x;}
+div.travel-guide{margin-right:0;}
+div.industry-bot .H dl dd{width:121px;height:20px;overflow:hidden;line-height:20px;}
+div.industry-bot .H dl dd a{color:#ff4e00;}
+div.industry-bot .H dl dd a:hover{color:#0000FF;}
+
+div.industry-bot .H dl dt{float:left;display:inline;margin-right:10px;}
+div.industry-news-con{margin-top:21px;}
+div.industry-news-con a{display:block;width:220px;height:20px;overflow:hidden;font-size:14px;line-height:20px;color:#3366cc;}
+div.industry-news-con a:hover{color:#FF0000;}
+#postdata p{padding:0 5px 0 0;}
+#postdata p span{color:#FF6600;}
+div.fabu{margin-top: 10px;width:698px;}
+.otherlinetitle {width:677px;height:33px;padding:0px 0 0px 25px;border-bottom:1px solid #dbd9d9;background:#62af1f url("images/pricereadmetitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/pricereadmetitle_bg.gif*/ repeat-x top;}
+.otherlinetitle h1 {margin:4px 0 0 0;font-size:18px;font-weight:normal;color:#FFFFFF;font-family:"微软雅黑";}
+/*channel topic*/
+.adviser {
+    background: none repeat scroll 0 0 #FDFFFF;
+    border: 1px solid #C9E1F0;
+    margin: 10px 0 0;
+    padding: 0 0 8px;
+    width: 265px;
+}
+.advisertitle {
+    background: url("images/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 30px;
+    padding: 6px 0 0 13px;
+    width: 252px;
+}
+.advisertitle h1 {
+    color: #0E4C97;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    width: 252px;
+}
+.adviserintro {
+    margin: 10px 0 0;
+    padding: 0 0 0 10px;
+    width: 255px;
+}
+.adviserintro p {
+    color: #2E2E2E;
+    line-height: 18px;
+    width: 250px;
+}
+.adviserwrap {
+    margin: 10px 2px 0;
+    width: 261px;
+}
+.adviserlist {
+    background: none repeat scroll 0 0 #F5F5F5;
+    height: 64px;
+    padding: 12px 0 0 21px;
+    width: 240px;
+}
+.adviserlist ul {
+    width: 240px;
+}
+.adviserlist li {
+    height: 57px;
+    margin: 0 3px 0 0;
+    width: 52px;
+}
+.adviserlist li img {
+    height: 46px;
+    margin: 2px 0 0 3px;
+    opacity: 0.6;
+    width: 46px;
+}
+.adviserlist li.selected {
+    background: url("images/managerlist_li_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/managerlist_li_bg.gif*/ no-repeat scroll 0 0 transparent;
+}
+.adviserlist li.selected img {
+    opacity: 1;
+}
+.advisertext {
+    padding: 12px 0 0 21px;
+    width: 240px;
+}
+.advisertext p {
+    color: #3366CC;
+    line-height: 22px;
+    width: 230px;
+}
+.advisertext p a {
+    color: #3366CC;
+}
+.advisertext p span {
+    font-weight: bold;
+}
+.certificate {
+    background: none repeat scroll 0 0 #FDFFFF;
+    border: 1px solid #C9E1F0;
+    margin: 10px 0 0;
+    padding: 0 0 2px;
+    width: 265px;
+}
+.certificatetitle {
+    background: url("images/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 30px;
+    padding: 6px 0 0 13px;
+    width: 252px;
+}
+.certificatetitle h1 {
+    color: #0E4C97;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    width: 252px;
+}
+.certificatecommend {
+    background: url("images/certificatecommend_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/certificatecommend_bg.gif*/ no-repeat scroll 47px 13px transparent;
+    height: 43px;
+    padding: 10px 0 0 80px;
+    width: 185px;
+}
+.certificatecommend h1 {
+    color: #FF4200;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: normal;
+    width: 185px;
+}
+.certificatecommend p {
+    color: #0060FF;
+    margin: 4px 0 0;
+    width: 185px;
+}
+.certificatepic {
+    background: none repeat scroll 0 0 #E5EBF9;
+    border-bottom: 1px solid #C9E1F0;
+    border-top: 1px solid #C9E1F0;
+    padding: 9px 0;
+    width: 265px;
+}
+.certificatepic ul {
+    width: 265px;
+}
+.certificatepic li {
+    padding: 0 4px 0 10px;
+    width: 74px;
+}
+.certificatepic li img {
+    border: 1px solid #DFDFDF;
+    height: 63px;
+    width: 71px;
+}
+.certificatepic li h1 {
+    color: #545454;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 8px 0 0;
+    text-align: center;
+    width: 74px;
+}
+.certificatepic li h1 a {
+    color: #545454;
+}
+.certificatepic li h1 a:hover {
+    color: #FF0000;
+}
+.certificatepic li p {
+    color: #D00A00;
+    margin: 4px 0 0;
+    text-align: center;
+    width: 74px;
+}
+.certificatetext {
+    margin: 12px 0 0;
+    width: 265px;
+}
+.certificatetext ul {
+    width: 264px;
+}
+.certificatetext li {
+    color: #3366CC;
+    height: 25px;
+    padding: 0 10px 0 8px;
+    width: 114px;
+}
+.certificatetext li span {
+    float: left;
+}
+.certificatetext li cite {
+    float: right;
+}
+.certificatetext li a {
+    color: #3366CC;
+}
+.certificatetext li a:hover {
+    color: #FF0000;
+}
+.leftqa {
+    background: none repeat scroll 0 0 #FDFFFF;
+    border: 1px solid #C9E1F0;
+    margin: 10px 0 0;
+    padding: 0 0 2px;
+    width: 265px;
+}
+.leftqatitle {
+    background: url("images/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 30px;
+    padding: 6px 0 0 13px;
+    width: 252px;
+}
+.leftqatitle h1 {
+    color: #0E4C97;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    width: 252px;
+}
+.leftqapic {
+    padding: 3px 3px 0;
+    width: 259px;
+}
+.leftqapic img {
+    height: 70px;
+    width: 259px;
+}
+.leftqatext {
+    margin: 25px 0 0;
+    padding: 0 0 0 13px;
+    width: 252px;
+}
+.leftqatext ul {
+    width: 252px;
+}
+.leftqatext li {
+    color: #3366CC;
+    height: 23px;
+    width: 126px;
+}
+.leftqatext li a {
+    color: #3366CC;
+}
+.leftqatext li a:hover {
+    color: #FF0000;
+}
+.leftarticle {
+    background: none repeat scroll 0 0 #FDFFFF;
+    border: 1px solid #C9E1F0;
+    margin: 10px 0 0;
+    padding: 0 0 8px;
+    width: 265px;
+}
+.leftarticletitle {
+    background: url("images/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 30px;
+    padding: 6px 0 0 13px;
+    width: 252px;
+}
+.leftarticletitle h1 {
+    color: #0E4C97;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    width: 252px;
+}
+.leftarticlepic {
+    height: 82px;
+    margin: 8px 0 0;
+    padding: 13px 0 0 25px;
+    width: 240px;
+}
+.leftarticlepic ul {
+    width: 240px;
+}
+.leftarticlepic li {
+    width: 77px;
+}
+.leftarticlepic li img {
+    border: 1px solid #CEE1E8;
+    height: 49px;
+    padding: 3px;
+    width: 52px;
+}
+.leftarticlepic li p {
+    color: #4D4D4D;
+    margin: 5px 0 0;
+    text-align: center;
+    width: 60px;
+}
+.leftarticlepic li p a {
+    color: #4D4D4D;
+}
+.leftarticlepic li p a:hover {
+    color: #FF0000;
+}
+.leftarticletext {
+    margin: 5px 0 0;
+    overflow: hidden;
+    padding: 0 10px;
+    width: 255px;
+}
+.leftarticletext ul {
+    width: 255px;
+}
+
+.leftarticletext li span {
+    color: #000000;
+    font-family: "微软雅黑";
+}
+.leftarticletext li cite {
+    color: #FF6600;
+    font-family: "微软雅黑";
+}
+.leftarticletext li a:hover {
+    color: #FF0000;
+}
+/*fenye*/
+ul.paginator{float:none;padding: 21px 0 15px 30px;
+    overflow:auto;zoom:1;height:30px;}
+ul.paginator li{float:left;display:inline;margin-right:2px;width:23px;height:23px;text-align:center;line-height:23px;vertical-align:middle;background: url("images/two.gif")/*tpa=http://www.btgbj.com/jic/css/images/two.gif*/ repeat-x scroll 0 0;border:1px solid #999;cursor:pointer;}
+ul.paginator li a{color:#333;display:inline-block;width:23px;height:23px;}
+ul.paginator .current{background: url("images/one.gif")/*tpa=http://www.btgbj.com/jic/css/images/one.gif*/ no-repeat scroll 0 1px;border:1px solid #67aee0;}
+ul.paginator li.last-page{margin:0 20px 0 12px;width:70px;height:23px;border:1px solid #999;background: url("images/two.gif")/*tpa=http://www.btgbj.com/jic/css/images/two.gif*/ repeat-x scroll 0 0;}
+ul.paginator li.last-page a{width:60px;display:block;margin-right:8px;background:url("images/last-page.gif")/*tpa=http://www.btgbj.com/jic/css/images/last-page.gif*/ no-repeat scroll right 6px;font-size:12px;color:#666;}
+ul.paginator li.top-page{margin:0 20px 0 12px;width:70px;height:23px;border:1px solid #999;background: url("images/two.gif")/*tpa=http://www.btgbj.com/jic/css/images/two.gif*/ repeat-x scroll 0 0;}
+ul.paginator li.top-page a{width:70px;background:url("images/left-jt.gif")/*tpa=http://www.btgbj.com/jic/css/images/left-jt.gif*/ no-repeat scroll 4px 6px;font-size:12px;color:#666;}
+ul.paginator li.dao-ye{margin-right:11px;width:70px;font-size:12px;color:#666;border:none; background:none;}
+ul.paginator li.dao-ye input{width:31px;height:21px;border:1px solid #ccc;font-size:12px;}
+ul.paginator li.queding{overflow:hidden;width:38px;background: url("images/two.gif")/*tpa=http://www.btgbj.com/jic/css/images/two.gif*/ repeat-x scroll 0 0 transparent;border:1px solid #999;}
+ul.paginator li.queding a{color:#666;font-size:12px;}
+ul.paginator li.home{margin:0 20px 0 12px;width:70px;height:23px;border:1px solid #999;background: url("images/two.gif")/*tpa=http://www.btgbj.com/jic/css/images/two.gif*/ repeat-x scroll 0 0;}
+ul.paginator li.home a{margin-right:8px;font-size:12px;color:#333;width:70px;}
+ul.paginator li.moye{margin:0 20px 0 12px;width:70px;height:23px;border:1px solid #999;background: url("images/two.gif")/*tpa=http://www.btgbj.com/jic/css/images/two.gif*/ repeat-x scroll 0 0;}
+ul.paginator li.moye a{width:70px;margin-right:8px;font-size:12px;color:#666;}
+/*chunwanwugouwu*/
+.linetype_detail {
+    width: 200px;
+}
+.linetype_detail ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #0676B8 -moz-use-text-color #0676B8 #0676B8;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    margin: 4px 0 0;
+}
+.linetype_detail li {
+    border-right: 1px solid #0676B8;
+    color: #3A3A3A;
+    height: 16px;
+    line-height: 16px;
+    padding: 4px;
+    vertical-align: middle;
+}
+.linetype_detail li.selected {
+    background: none repeat scroll 0 0 #0CA4FF;
+    color: #FFFFFF;
+}
+/**/
+.mainleft {
+    width: 267px;
+}
+.manager {
+    background: none repeat scroll 0 0 #FDFFFF;
+    border: 1px solid #C9E1F0;
+    width: 265px;
+	padding-bottom:20px;
+}
+.managertitle {
+    background: url("images/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 36px;
+    padding: 0 0 0 8px;
+    width: 257px;
+}
+.managertitle h1 {
+    background: url("images/managertitle_h1_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/managertitle_h1_bg.gif*/ no-repeat scroll 0 0 transparent;
+    color: #0651AC;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    height: 28px;
+    padding: 8px 0 0 57px;
+    width: 200px;
+}
+.managerpic {
+    padding: 12px 0 5px 67px;
+    width: 198px;
+}
+.managerpic img {
+    border: 1px solid #C9C9C9;
+    height: 150px;
+    padding: 4px;
+    width: 116px;
+}
+.managertext {
+    width: 265px;
+}
+.managertext ul {
+    width: 265px;
+}
+.managertext li {
+    border: 1px solid #C2C2C2;
+    height: 31px;
+    margin: 7px 3px 0 17px;
+    padding: 1px 1px 1px 44px;
+    width: 60px;
+	display:inline;
+}
+.managertext li.t1 {
+    background: url("images/managertext_bg1.gif")/*tpa=http://www.btgbj.com/jic/css/images/managertext_bg1.gif*/ no-repeat scroll 1px 1px #FFFFFF;
+}
+.managertext li.t2 {
+    background: url("images/managertext_bg2.gif")/*tpa=http://www.btgbj.com/jic/css/images/managertext_bg2.gif*/ no-repeat scroll 1px 1px #FFFFFF;
+}
+.managertext li.t3 {
+    background: url("images/managertext_bg3.gif")/*tpa=http://www.btgbj.com/jic/css/images/managertext_bg3.gif*/ no-repeat scroll 1px 1px #FFFFFF;
+}
+.managertext li.t4 {
+    background: url("images/managertext_bg4.gif")/*tpa=http://www.btgbj.com/jic/css/images/managertext_bg4.gif*/ no-repeat scroll 1px 1px #FFFFFF;
+}
+.managertext li p {
+    color: #0072FF;
+    line-height: 14px;
+    margin: 2px 0 0;
+    width: 60px;
+}
+.lefttel {
+    border-top: 1px solid #C9E1F0;
+    margin: 10px 0 0;
+    width: 265px;
+}
+.destinationnav {
+    border: 1px solid #C9E1F0;
+    margin: 10px 0 0;
+    width: 265px;
+}
+.destinationnavtitle {
+    background: url("images/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 36px;
+    padding: 0 0 0 24px;
+    width: 241px;
+}
+.destinationnavtitle h1 {
+    background: url("images/destinationnavtitle_h1_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/destinationnavtitle_h1_bg.gif*/ no-repeat scroll 0 7px transparent;
+    color: #0651AC;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    height: 28px;
+    padding: 8px 0 0 41px;
+    width: 200px;
+}
+.destinationnavintro {
+    padding: 10px 0 10px 11px;
+    width: 254px;
+}
+.destinationnavintro h1 {
+    color: #D11C0E;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    width: 250px;
+}
+.destinationnavintro p {
+    color: #3B3B3B;
+    line-height: 16px;
+    margin: 6px 0 0;
+    padding: 0 0 0 10px;
+    width: 240px;
+}
+.destinationnavlistall {
+    margin: 4px 0 0;
+    width: 265px;
+}
+.destinationnavlistall ul {
+    width: 265px;
+}
+.destinationnavlistall li {
+    width: 265px;
+}
+.destinationnavname {
+    background: url("images/arrow01.gif")/*tpa=http://www.btgbj.com/jic/css/images/arrow01.gif*/ no-repeat scroll 258px 12px #E6F5FF;
+    border-top: 1px solid #7DC5F4;
+    cursor: pointer;
+    height: 20px;
+    padding: 6px 0 0 12px;
+    width: 253px;
+}
+.destinationnavname h1 {
+    background: url("images/point01.gif")/*tpa=http://www.btgbj.com/jic/css/images/point01.gif*/ no-repeat scroll 0 5px transparent;
+    color: #0651AC;
+    font-size: 14px;
+    padding: 0 0 0 13px;
+    width: 240px;
+}
+.destinationnavlist {
+    border-top: 1px solid #7DC5F4;
+    display: none;
+    padding: 14px 0 4px;
+    width: 265px;
+}
+.destination {
+    padding: 0 2px 0 3px;
+    width: 260px;
+}
+.destination h1 {
+    color: #444444;
+    font-size: 12px;
+    text-align: right;
+    width: 70px;
+}
+.destination a {
+    color: #444444;
+}
+.destination a:hover {
+    color: #006CFF;
+    text-decoration: underline;
+}
+.destination dl {
+    width: 190px;
+}
+.destination dd {
+    color: #BFBFBF;
+    height: 24px;
+    padding: 0 12px 0 0;
+    white-space: nowrap;
+}
+.certificate {
+    background: none repeat scroll 0 0 #FDFFFF;
+    border: 1px solid #C9E1F0;
+    margin: 10px 0 0;
+    padding: 0 0 2px;
+    width: 265px;
+}
+.certificatetitle {
+    background: url("images/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 30px;
+    padding: 6px 0 0 13px;
+    width: 252px;
+}
+.certificatetitle h1 {
+    color: #0E4C97;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    width: 252px;
+}
+.certificatecommend {
+    background: url("images/certificatecommend_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/certificatecommend_bg.gif*/ no-repeat scroll 47px 13px transparent;
+    height: 43px;
+    padding: 10px 0 0 80px;
+    width: 185px;
+}
+.certificatecommend h1 {
+    color: #FF4200;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: normal;
+    width: 185px;
+}
+.certificatecommend p {
+    color: #0060FF;
+    margin: 4px 0 0;
+    width: 185px;
+}
+.certificatepic {
+    background: none repeat scroll 0 0 #E5EBF9;
+    border-bottom: 1px solid #C9E1F0;
+    border-top: 1px solid #C9E1F0;
+    padding: 9px 0;
+    width: 265px;
+}
+.certificatepic ul {
+    width: 265px;
+}
+.certificatepic li {
+    padding: 0 4px 0 10px;
+    width: 74px;
+}
+.certificatepic li img {
+    border: 1px solid #DFDFDF;
+    height: 63px;
+    width: 71px;
+}
+.certificatepic li h1 {
+    color: #545454;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 8px 0 0;
+    text-align: center;
+    width: 74px;
+}
+.certificatepic li h1 a {
+    color: #545454;
+}
+.certificatepic li h1 a:hover {
+    color: #FF0000;
+}
+.certificatepic li p {
+    color: #D00A00;
+    margin: 4px 0 0;
+    text-align: center;
+    width: 74px;
+}
+.certificatetext {
+    margin: 12px 0 0;
+    width: 265px;
+}
+.certificatetext ul {
+    width: 264px;
+}
+.certificatetext li {
+    color: #3366CC;
+    height: 25px;
+    padding: 0 10px 0 8px;
+    width: 114px;
+}
+.certificatetext li span {
+    float: left;
+}
+.certificatetext li cite {
+    float: right;
+}
+.certificatetext li a {
+    color: #3366CC;
+}
+.certificatetext li a:hover {
+    color: #FF0000;
+}
+.leftqa {
+    background: none repeat scroll 0 0 #FDFFFF;
+    border: 1px solid #C9E1F0;
+    margin: 10px 0 0;
+    padding: 0 0 2px;
+    width: 265px;
+}
+.leftqatitle {
+    background: url("images/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 30px;
+    padding: 6px 0 0 13px;
+    width: 252px;
+}
+.leftqatitle h1 {
+    color: #0E4C97;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    width: 252px;
+}
+.leftqapic {
+    padding: 3px 3px 0;
+    width: 259px;
+}
+.leftqapic img {
+    height: 70px;
+    width: 259px;
+}
+.leftqatext {
+    margin: 12px 0 0;
+    padding: 0 0 0 13px;
+    width: 252px;
+}
+.leftqatext ul {
+    width: 252px;
+}
+.leftqatext li {
+    color: #3366CC;
+    height: 23px;
+    width: 126px;
+}
+.leftqatext li a {
+    color: #3366CC;
+}
+.leftqatext li a:hover {
+    color: #FF0000;
+}
+.leftspecial {
+    background: none repeat scroll 0 0 #FDFFFF;
+    border: 1px solid #C9E1F0;
+    margin: 10px 0 0;
+    padding: 0 0 2px;
+    width: 265px;
+}
+.leftspecialtitle {
+    background: url("images/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 30px;
+    padding: 6px 0 0 13px;
+    width: 252px;
+}
+.leftspecialtitle h1 {
+    color: #0E4C97;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    width: 252px;
+}
+.leftspecialtext {
+    margin: 18px 0 0;
+    width: 244px;
+}
+.leftspecialtext ul {
+    padding: 0 0 0 21px;
+    width: 244px;
+}
+.leftspecialtext li {
+    color: #454545;
+    line-height: 18px;
+    padding: 0 0 24px;
+    width: 222px;
+}
+.leftspecialtext li span {
+    color: #FF5400;
+    font-weight: bold;
+}
+.leftspecialtext li a {
+    color: #454545;
+}
+.leftspecialtext li a span {
+    color: #FF5400;
+}
+.leftspecialtext li a:hover {
+    color: #FF5400;
+}
+.leftarticle {
+    background: none repeat scroll 0 0 #FDFFFF;
+    border: 1px solid #C9E1F0;
+    margin: 10px 0 0;
+    padding: 0 0 8px;
+    width: 265px;
+}
+.leftarticletitle {
+    background: url("images/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 30px;
+    padding: 6px 0 0 13px;
+    width: 252px;
+}
+.leftarticletitle h1 {
+    color: #0E4C97;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    width: 252px;
+}
+.leftarticlepic {
+    height: 82px;
+    margin: 8px 0 0;
+    padding: 13px 0 0 25px;
+    width: 240px;
+}
+.leftarticlepic ul {
+    width: 240px;
+}
+.leftarticlepic li {
+    width: 77px;
+}
+.leftarticlepic li img {
+    border: 1px solid #CEE1E8;
+    height: 49px;
+    padding: 3px;
+    width: 52px;
+}
+.leftarticlepic li p {
+    color: #4D4D4D;
+    margin: 5px 0 0;
+    text-align: center;
+    width: 60px;
+}
+.leftarticlepic li p a {
+    color: #4D4D4D;
+}
+.leftarticlepic li p a:hover {
+    color: #FF0000;
+}
+.leftarticletext {
+    margin: 5px 0 0;
+    overflow: hidden;
+    padding: 0 5px;
+    width: 255px;
+}
+.leftarticletext ul {
+    width: 255px;
+}
+.leftarticletext li {
+    background: url("images/line1.gif")/*tpa=http://www.btgbj.com/jic/css/images/line1.gif*/ repeat-x scroll left bottom transparent;
+    color: #999999;
+    height: 23px;
+   
+    padding: 7px 0 0 10px;
+    width: 255px;
+	line-height:23px;
+	overflow:hidden;
+}
+.leftarticletext li span {
+    color: #000000;
+    font-family: "微软雅黑";
+}
+.leftarticletext li cite {
+    color: #FF6600;
+    font-family: "微软雅黑";
+}
+
+.leftarticletext li a:hover {
+    color: #FF0000;
+}
+.leftcommend {
+    background: none repeat scroll 0 0 #FDFFFF;
+    border: 1px solid #C9E1F0;
+    margin: 10px 0 0;
+    padding: 0 0 8px;
+    width: 265px;
+}
+.leftcommendtitle {
+    background: url("images/lefttitle_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 30px;
+    padding: 6px 0 0 13px;
+    width: 252px;
+}
+.leftcommendtitle h1 {
+    color: #0E4C97;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    width: 252px;
+}
+.leftcommendlist {
+    margin: 10px 0 0;
+    padding: 0 7px;
+    width: 251px;
+}
+.leftcommendlist ul {
+    overflow: hidden;
+    width: 251px;
+}
+.leftcommendlist li {
+    border-top: 1px dashed #DBDBDB;
+    margin: -1px 0 0;
+    padding: 10px 45px;
+    width: 161px;
+}
+.leftcommandpic {
+    height:120px;
+   
+    width: 200px;
+}
+.leftcommandpic img {
+    height: 120px;
+    width: 200px;
+}
+.leftcommandtext {
+    width: 160px;
+}
+.leftcommandtext h1 {
+    color: #4D5353;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 4px 0 0;
+    width: 160px;
+}
+.leftcommandtext h1 a {
+    color: #4D5353;
+}
+.leftcommandtext h1 a:hover {
+    color: #FF0000;
+}
+.leftcommandtext p {
+    color: #7B7B7B;
+    margin: 3px 0 0;
+    width: 200px;
+}
+.leftcommandtext h2 {
+    color: #FF7A17;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 6px 0 0;
+    text-align: center;
+    width: 160px;
+}
+.leftcommandtext h2 em {
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+/*fanhuishouye*/ 
+/* 除IE6浏览器的通用方法 */
+.ie6fixedTL{position:fixed;left:0;top:0} 
+.ie6fixedBR{position:fixed;right:0;bottom:0} 
+/* IE6浏览器的特有方法 */
+* html .ie6fixedTL{position:absolute;left:expression(eval(document.documentElement.scrollLeft));top:expression(eval(document.documentElement.scrollTop))} 
+* html .ie6fixedBR{position:absolute;left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||0)-(parseInt(this.currentStyle.marginRight,10)||0));top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))} 
+
+
+.J_ScrollTop {
+    background: none repeat scroll 0 0 #AFAFAF;
+    border: 1px solid #DEDEDE;
+    display: none;
+    height: 82px;
+    margin-right: -528px;
+    margin-top: 140px;
+    position: fixed;
+    right: 50%;
+    top: 50%;
+    width: 27px;
+    z-index: 1001;
+	float:none;
+	_position:absolute;
+	_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+	_margin-right: -528px;
+    _margin-top: 140px;
+
+}
+
+.J_ScrollTop a {
+    background: url("../../../r.uzaicdn.com/content/1/images/re.jpg")/*tpa=http://r.uzaicdn.com/content/1/images/re.jpg*/ no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    line-height: 1.3;
+    margin: 5px 0 0 5px;
+    padding-top: 12px;
+    text-align: center;
+    width: 16px;
+    z-index: 9999;
+}
+.J_ScrollTopCur a:hover {
+    color: #FFFFFF;
+}
+.J_ScrollTopCur {
+    background: none repeat scroll 0 0 #878787;
+}
+.J_ScrollTopCur a {
+    background: url("../../../r.uzaicdn.com/content/1/images/re1.jpg")/*tpa=http://r.uzaicdn.com/content/1/images/re1.jpg*/ no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+}
+/*comment neirong*/
+.pkg-detail-box03 {
+    overflow: hidden;
+}
+.pkg-detail-box03, .pkg-detail-box04 {
+	width:900px;
+    padding: 0 49px;
+	border:1px solid #ddd;
+	border-top:none;
+}
+div.pkg-user-comments-t{
+    float:none;
+    color: #808080;
+    padding-top:18px;
+}
+.pkg-user-comments-t span {
+    color: #266AC9;
+    font: bold 30px/1.5 Arial,simsun,sans-serif;
+    padding-right: 0.2em;
+}
+.pkg-user-comments-m {
+float:none;
+    border-top: 1px dotted #D8D8D8;
+    color: #4D4D4D;
+    margin: 15px 0 10px;
+}
+.pkg-user-comments-m li {
+float:none;
+    border-bottom: 1px dotted #D8D8D8;
+    padding: 16px 0 8px 8px;
+	line-height:22px;
+	 
+}
+.pkg-user-comments-m li.noborder {
+    border-bottom: medium none;
+}
+.pkg-user-comments-m h4 {
+float:none;
+    color: #A57748;
+    font: bold 12px/1.5 Arial,simsun,sans-serif;
+    position: relative;
+}
+.pkg-user-comments-m .pkg-user-time {
+    color: #B5B5B5;
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.pkg-user-comments-m p {
+float:none;
+    padding-top: 3px;
+}
+.pkg-user-comments-m div {
+    text-align: right;
+}
+.pkg-heart-1, .pkg-heart-2, .pkg-heart-3, .pkg-heart-4, .pkg-heart-5 {
+    background-image: url("../../../pic.c-ctrip.com/packages111012/bg_heart.png")/*tpa=http://pic.c-ctrip.com/packages111012/bg_heart.png*/;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 12px;
+    position: relative;
+    vertical-align: middle;
+    width: 75px;
+}
+.pkg-heart-1:hover, .pkg-heart-2:hover, .pkg-heart-3:hover, .pkg-heart-4:hover, .pkg-heart-5:hover {
+    padding: 0;
+    text-decoration: none;
+}
+.pkg-heart-1 span, .pkg-heart-2 span, .pkg-heart-3 span, .pkg-heart-4 span, .pkg-heart-5 span {
+    color: #BD4F16;
+    display: none;
+    font: 12px/1.5 Arial,simsun,sans-serif;
+    min-width: 90px;
+    padding: 2px 4px 5px;
+    position: absolute;
+    top: -28px;
+    white-space: nowrap;
+    word-break: keep-all;
+}
+.pkg-heart-1 span {
+    left: -14px;
+}
+.pkg-heart-2 span {
+    left: 1px;
+}
+.pkg-heart-3 span {
+    left: 16px;
+}
+.pkg-heart-4 span {
+    left: 30px;
+}
+.pkg-heart-5 span {
+    left: 46px;
+}
+.pkg-heart-1:hover span, .pkg-heart-2:hover span, .pkg-heart-3:hover span, .pkg-heart-4:hover span, .pkg-heart-5:hover span {
+    background: url("../../../pic.c-ctrip.com/packages111012/bg_heart_trangle.png")/*tpa=http://pic.c-ctrip.com/packages111012/bg_heart_trangle.png*/ no-repeat scroll 0 100% #FEC96D;
+    border: medium none;
+    display: block;
+}
+.pkg-heart-1 {
+    background-position: -60px 0;
+}
+.pkg-heart-2 {
+    background-position: -45px 0;
+}
+.pkg-heart-3 {
+    background-position: -30px 0;
+}
+.pkg-heart-4 {
+    background-position: -15px 0;
+}
+.pkg-heart-5 {
+    background-position: 0 0;
+}
+/*chufariqi*/
+.p10 {
+    height: 32px;
+    margin: 10px 0;
+    position: relative;
+}
+.p10 label {
+    margin-top: 7px;
+}
+.p10 .s10 {
+    height: 34px;
+    line-height: 34px;
+    width: 411px;
+}
+.p10 .s10 .s1 {
+    background: url("../../../r.uzaicdn.com/content/product/p38.gif")/*tpa=http://r.uzaicdn.com/content/product/p38.gif*/ no-repeat scroll 0 0 transparent;
+    clear: both;
+    float: left;
+    height: 4px;
+    overflow: hidden;
+    width: 100%;
+}
+.p10 .s10 .s2 {
+    background: url("../../../r.uzaicdn.com/content/product/p54.gif")/*tpa=http://r.uzaicdn.com/content/product/p54.gif*/ repeat-y scroll 0 0 transparent;
+    border-bottom: 0 none;
+    border-top: 0 none;
+    clear: both;
+    float: left;
+    height: 23px;
+    overflow: hidden;
+    text-decoration: none;
+    width: 100%;
+}
+.p10 .s10 .s3 {
+    background: url("../../../r.uzaicdn.com/content/product/p39.gif")/*tpa=http://r.uzaicdn.com/content/product/p39.gif*/ no-repeat scroll 0 0 transparent;
+    clear: both;
+    float: left;
+    height: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+.p10 .s10 input {
+    border: 1px solid #666666;
+    color: #999999;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    margin: 2px 0 0 6px;
+    overflow: hidden;
+    padding-left: 2px;
+    width: 395px;
+}
+.proInfo .pR .s10Trim1 {
+    clear: both;
+    float: right;
+    position: absolute;
+    right: 1px;
+    top: 26px;
+    width: 411px;
+}
+.p10 .cArrow {
+    bottom: -20px;
+    cursor: pointer;
+    float: right;
+    height: 15px;
+    position: absolute;
+    right: 12px;
+    width: 47px;
+}
+.p10 .cdown {
+    background: url("../../../r.uzaicdn.com/content/product/p5.gif")/*tpa=http://r.uzaicdn.com/content/product/p5.gif*/ no-repeat scroll 0 0 transparent;
+    bottom: -28px;
+}
+.p10 .cup {
+    background: url("../../../r.uzaicdn.com/content/product/p50.gif")/*tpa=http://r.uzaicdn.com/content/product/p50.gif*/ no-repeat scroll 0 0 transparent;
+    bottom: -14px;
+}
+.p10 .calenderPart {
+    background: url("../../../r.uzaicdn.com/content/product/p54.gif")/*tpa=http://r.uzaicdn.com/content/product/p54.gif*/ repeat-y scroll 0 0 transparent;
+    border-bottom: 0 none;
+    border-top: 0 none;
+    clear: both;
+    display: none;
+    float: right;
+    overflow: hidden;
+    width: 411px;
+}
+.p10 .calenderPartM {
+    background: none repeat scroll 0 0 #F4F2F2;
+    border-bottom: 0 none;
+    border-top: 0 none;
+    clear: both;
+    display: inline;
+    float: left;
+    margin: 5px 0 0 6px;
+    overflow: hidden;
+    width: 399px;
+}
+.p10 .calenderPartM ul {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #666666;
+    clear: both;
+    float: left;
+    height: 205px;
+    overflow: auto;
+    width: 397px;
+}
+.p10 .calenderPartM li {
+    border-bottom: 1px solid #EDEDED;
+    clear: both;
+    color: #333333;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 33px;
+    line-height: 33px;
+    overflow: hidden;
+    text-indent: 10px;
+    width: 380px;
+}
+.p10 .calenderPartM li:hover {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+.p10 .calenderPartM li b {
+    color: #FF6600;
+    font-weight: bold;
+}
+.p10 .calenderPartF {
+    background: url("../../../r.uzaicdn.com/content/product/p39.gif")/*tpa=http://r.uzaicdn.com/content/product/p39.gif*/ no-repeat scroll 0 0 transparent;
+    clear: both;
+    float: left;
+    height: 5px;
+    overflow: hidden;
+    width: 411px;
+}
+.linelist ul li.tuanqi {
+    padding: 0 0 0 160px;
+    width: 521px;
+}
+.linelist ul li.tuanqi a {
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+}
+.linelist ul li.tuanqi a strong {
+    color: #FF6600;
+}
+/*fenxianglijian100yuan*/
+a#line_share{background: url("images/share.gif")/*tpa=http://www.btgbj.com/jic/css/images/share.gif*/ no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 22px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: 180px;}
+a#line_submit{background: url("images/buy-quick.gif")/*tpa=http://www.btgbj.com/jic/css/images/buy-quick.gif*/ no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 22px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: 130px;padding-right:15px;}
+/*jititejiaqianzhengbanli*/
+.certificate {
+    background: none repeat scroll 0 0 #FDFFFF;
+    border: 1px solid #C9E1F0;
+    margin: 10px 0 0;
+    padding: 0 0 2px;
+    width: 265px;
+}
+.certificatetitle {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/images/lefttitle_bg.gif*/ repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #C9E1F0;
+    height: 30px;
+    padding: 6px 0 0 13px;
+    width: 252px;
+}
+.certificatetitle h1 {
+    color: #0E4C97;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    width: 252px;
+}
+.certificatecommend {
+    background: url("../../index.php")/*tpa=http://www.btgbj.com/jic/images/certificatecommend_bg.gif*/ no-repeat scroll 47px 13px transparent;
+    height: 43px;
+    padding: 10px 0 0 80px;
+    width: 185px;
+}
+.certificatecommend h1 {
+    color: #FF4200;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: normal;
+    width: 185px;
+}
+.certificatecommend p {
+    color: #0060FF;
+    margin: 4px 0 0;
+    width: 185px;
+}
+.certificatepic {
+    background: none repeat scroll 0 0 #E5EBF9;
+    border-bottom: 1px solid #C9E1F0;
+    border-top: 1px solid #C9E1F0;
+    padding: 9px 0;
+    width: 265px;
+}
+.certificatepic ul {
+    width: 265px;
+}
+.certificatepic li {
+    padding: 0 4px 0 10px;
+    width: 74px;
+}
+.certificatepic li img {
+    border: 1px solid #DFDFDF;
+    height: 63px;
+    width: 71px;
+}
+.certificatepic li h1 {
+    color: #545454;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 8px 0 0;
+    text-align: center;
+    width: 74px;
+}
+.certificatepic li h1 a {
+    color: #545454;
+}
+.certificatepic li h1 a:hover {
+    color: #FF0000;
+}
+.certificatepic li p {
+    color: #D00A00;
+    margin: 4px 0 0;
+    text-align: center;
+    width: 74px;
+}
+.certificatetext {
+    margin: 12px 0 0;
+    width: 265px;
+}
+.certificatetext ul {
+    width: 264px;
+}
+.certificatetext li {
+    color: #3366CC;
+    height: 25px;
+    padding: 0 10px 0 8px;
+    width: 114px;
+}
+.certificatetext li span {
+    float: left;
+}
+.certificatetext li cite {
+    float: right;
+}
+.certificatetext li a {
+    color: #3366CC;
+}
+.certificatetext li a:hover {
+    color: #FF0000;
+}
+/*header-common-nav*/
+.mainnav li.current div{ clear:both}
+.mainnav li.current div a{height:30px;padding:0;background:none;font-weight:normal; float:none;}
+.mainnav li.current div a:hover{background:none;font-weight:normal;clear:both}
+
+.titledaohan ol {
+	overflow:hidden;
+}
+.titledaohan ol li a {
+    color: #676565; background:;
+}
+.titledaohan ol li p {
+    display: inline;
+    float: left;
+}
+.titledaohan ol li span a:link, .titledaohan ol li span a:visited {
+    color: #FF9900;
+   
+    margin-right: 5px;
+    text-decoration: none;
+}
+.titledaohan ol li span a:hover {
+    color: red; 
+}
+
+.titledaohan ol li a:hover {
+    color: red;
+}
+.syrightx {
+    border-right: 1px dotted #CCCCCC;
+    padding-right: 5px;
+}
+.titlehover a:hover {
+    color: #FF9000;
+	}
+.titlehover {
+    color: #686868;
+    height: 49px;
+}
+.titlezhidao {
+    color: #FFFFFF;
+}
+.titlezhidao a {
+    color: #FFFFFF;
+}
+.titledaohan{width:640px;z-index:100;padding:0 0 20px 14px;border:4px solid #faac42; background:#fff;}
+.titledaohan ol li{ background: url("images/dhxlxian_bg.gif")/*tpa=http://www.btgbj.com/jic/css/images/dhxlxian_bg.gif*/ repeat-x scroll center bottom ;
+    display: inline;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 20px;
+    padding-top: 5px;
+    text-align: left;
+    width: 300px;}
+.titledaohan ol li a{color:#000000;font-size:12px;padding:0 5px 0 0;}
+.titledaohan ol li a:hover{ background:none;color:#FF9900; text-decoration:underline;}
+.titledaohan ol li span a{padding-right:10px;color:#FF9900;font-size:12px;}
+.titledaohan ol li#xyh{ overflow:visible;}
+
+
+.foot{ overflow:hidden;margin:10px auto;}
+ .foot div{float:left;}
+ .channelnav{margin-top:10px;}
+ 
+ /*home datugundong*/
+#slideshow_wrapper {
+POSITION: relative;
+PADDING-BOTTOM: 0px;
+BACKGROUND-COLOR: #fff;
+PADDING-LEFT: 0px;
+WIDTH: 702px;
+PADDING-RIGHT: 0px;
+HEIGHT: 161px;
+OVERFLOW: hidden;
+PADDING-TOP: 0px
+}
+#slideshow_footbar {
+Z-INDEX: 5;
+POSITION: absolute;
+FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr=#32000000, endColorstr=#32000000);
+WIDTH: 100%;
+BOTTOM: 0;
+HEIGHT: 30px
+}
+#slideshow_photo {
+POSITION: absolute;
+WIDTH: 100%;
+HEIGHT: 100%;
+CURSOR: pointer
+}
+#slideshow_photo A {
+Z-INDEX: 1;
+BORDER-BOTTOM: 0px;
+POSITION: absolute;
+BORDER-LEFT: 0px;
+MARGIN: 0px;
+DISPLAY: block;
+BORDER-TOP: 0px;
+TOP: 0px;
+BORDER-RIGHT: 0px;
+LEFT: 0px;
+
+}
+#slideshow_footbar .slideshow-bt {
+BACKGROUND-COLOR: #fff;
+MARGIN: 10px 10px 0px 0px;
+WIDTH: 10px;
+DISPLAY: inline;
+FLOAT: right;
+HEIGHT: 10px;
+FONT-SIZE: 0px
+}
+#slideshow_footbar .slideshow-menu {
+background-color:black; opacity:0.8;height:30px;filter:alpha(opacity=80);
+}
+#slideshow_footbar .bt-on {
+BACKGROUND-COLOR: #30b1eb
+} 
+#slideshow_footbar a{width:116px}
