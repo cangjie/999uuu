@@ -10,12 +10,21 @@ tmp/
 *.tmp
 *.bak
 *.swp
+*.jpg
+*.gif
+*.bmp
+*.png
+*.rar
+*.psd
+*.raw
 *~.nib
+*.tif
+*.zip
 local.properties
 .classpath
 .settings/
 .loadpath
-
+PrecompiledWeb/
 # External tool builders
 .externalToolBuilders/
 
