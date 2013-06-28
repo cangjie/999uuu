@@ -24,7 +24,7 @@ local.properties
 .classpath
 .settings/
 .loadpath
-PrecompiledWeb/
+Precompiled/
 # External tool builders
 .externalToolBuilders/
 
