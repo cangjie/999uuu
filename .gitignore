@@ -22,6 +22,7 @@ tmp/
 *.zip
 local.properties
 .classpath
+.web.config
 .settings/
 .loadpath
 Precompiled/
