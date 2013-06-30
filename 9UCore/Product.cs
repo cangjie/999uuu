@@ -113,6 +113,10 @@ namespace _9UCore
             string sqlStr = " update tar set "
                 + " tar_prov = @prov , "
                 + " tar_city = @city , "
+                + " tar_prov2 = @prov2 , "
+                + " tar_city2 = @city2 , "
+                + " tar_prov3 = @prov3 , "
+                + " tar_city3 = @city3 , "
                 + " tar_price = @price , "
                 + " tar_price2 = @price2 , "
                 + " tar_price3 = @price3 , "
@@ -134,6 +138,10 @@ namespace _9UCore
             SqlCommand cmd = new SqlCommand(sqlStr, conn);
             cmd.Parameters.Add("@prov", _field["tar_prov"].ToString().Trim());
             cmd.Parameters.Add("@city", _field["tar_city"].ToString().Trim());
+            cmd.Parameters.Add("@prov2", _field["tar_prov2"].ToString().Trim());
+            cmd.Parameters.Add("@city2", _field["tar_city2"].ToString().Trim());
+            cmd.Parameters.Add("@prov3", _field["tar_prov3"].ToString().Trim());
+            cmd.Parameters.Add("@city3", _field["tar_city3"].ToString().Trim());
             cmd.Parameters.Add("@price", _field["tar_price"].ToString().Trim());
             cmd.Parameters.Add("@price2", _field["tar_price2"].ToString().Trim());
             cmd.Parameters.Add("@price3", _field["tar_price3"].ToString().Trim());
@@ -269,7 +277,7 @@ namespace _9UCore
 
         public static Product[] GetProductsByCity(string City,int type)
         {
-            SqlDataAdapter da = new SqlDataAdapter(" select * from tar where  tar_abroad = " + type.ToString() + " and   tar_city = '" + City.Replace("'", "").Trim() + "'  order by tar_id desc  ", Util.ConnectingString);
+            SqlDataAdapter da = new SqlDataAdapter(" select * from tar where  tar_abroad = " + type.ToString() + " and (  tar_city = '" + City.Replace("'", "").Trim() + "' or tar_city2 = '" + City.Replace("'", "").Trim() + "' or   tar_city3 = '" + City.Replace("'", "").Trim() + "'  )    order by tar_id desc  ", Util.ConnectingString);
             DataTable dt = new DataTable();
             da.Fill(dt);
             da.Dispose();
@@ -284,7 +292,7 @@ namespace _9UCore
 
         public static Product[] GetProductsByCity(string City)
         {
-            SqlDataAdapter da = new SqlDataAdapter(" select * from tar where     tar_city = '" + City.Replace("'", "").Trim() + "'  order by tar_id desc ", Util.ConnectingString);
+            SqlDataAdapter da = new SqlDataAdapter(" select * from tar where   (  tar_city = '" + City.Replace("'", "").Trim() + "' or tar_city2 = '" + City.Replace("'", "").Trim() + "'  or tar_city3 = '" + City.Replace("'", "").Trim() + "')    order by tar_id desc ", Util.ConnectingString);
             DataTable dt = new DataTable();
             da.Fill(dt);
             da.Dispose();

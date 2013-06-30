@@ -107,6 +107,35 @@
                         break;
                     }
                 }
+
+                FillProv(type, DrpProv2);
+                if (prod._field["tar_prov2"].ToString().Trim().Equals(""))
+                {
+                    DrpProv2.SelectedValue = prod._field["tar_prov"].ToString().Trim();
+                    DrpProv2_SelectedIndexChanged(sender, e);
+                    DrpCity2.SelectedValue = prod._field["tar_city"].ToString().Trim();
+                }
+                else
+                {
+                    DrpProv2.SelectedValue = prod._field["tar_prov2"].ToString().Trim();
+                    DrpProv2_SelectedIndexChanged(sender, e);
+                    DrpCity2.SelectedValue = prod._field["tar_city2"].ToString().Trim();
+                }
+
+                FillProv(type, DrpProv3);
+                if (prod._field["tar_prov3"].ToString().Trim().Equals(""))
+                {
+                    DrpProv3.SelectedValue = prod._field["tar_prov"].ToString().Trim();
+                    DrpProv3_SelectedIndexChanged(sender, e);
+                    DrpCity3.SelectedValue = prod._field["tar_city"].ToString().Trim();
+                }
+                else
+                {
+                    DrpProv3.SelectedValue = prod._field["tar_prov3"].ToString().Trim();
+                    DrpProv3_SelectedIndexChanged(sender, e);
+                    DrpCity3.SelectedValue = prod._field["tar_city3"].ToString().Trim();
+                }
+                
                 TxtTitle.Text = prod._field["tar_title"].ToString().Trim();
                 TxtPrice.Text = prod._field["tar_price"].ToString().Trim();
                 TxtPrice2.Text = prod._field["tar_price2"].ToString().Trim();
@@ -183,8 +212,24 @@
         }
    
         LblCurLoc.Text = abd + ">>" + treeview.SelectedNode.Parent.Value.Trim() + ">>" + curLoc.Remove(0, 1);
+        FillProv(type, DrpProv2);
+        DrpProv2.SelectedValue = treeview.SelectedNode.Parent.Value.Trim();
+        DrpProv2_SelectedIndexChanged(sender, e);
+        DrpCity2.SelectedValue = curLoc.Remove(0, 1);
+        FillProv(type, DrpProv3);
+        DrpProv3.SelectedValue = treeview.SelectedNode.Parent.Value.Trim();
+        DrpProv3_SelectedIndexChanged(sender, e);
+        DrpCity3.SelectedValue = curLoc.Remove(0, 1);
+    }
 
-       
+    protected void FillProv(int type,DropDownList drp)
+    {
+        drp.Items.Clear();
+        string[] strArr = Product.GetProvince(type);
+        foreach (string s in strArr)
+        {
+            drp.Items.Add(s);
+        }
     }
 
     protected void Button1_Click(object sender, EventArgs e)
@@ -325,6 +370,11 @@
             {
                 Product p = new Product(i);
                 p.DateList = (DataTable)ViewState["dt"];
+                p._field["tar_prov2"] = DrpProv2.SelectedValue.Trim();
+                p._field["tar_city2"] = DrpCity2.SelectedValue.Trim();
+                p._field["tar_prov3"] = DrpProv3.SelectedValue.Trim();
+                p._field["tar_city3"] = DrpCity3.SelectedValue.Trim();
+                p.Update();
                 ID = i;
                 SUC = true;
             }
@@ -450,6 +500,10 @@
         prod._field["tar_price2"] = TxtPrice2.Text.Trim();
         prod._field["tar_price3"] = TxtPrice3.Text.Trim();
         prod._field["tar_price4"] = TxtPrice4.Text.Trim();
+        prod._field["tar_prov2"] = DrpProv2.SelectedValue.Trim();
+        prod._field["tar_city2"] = DrpCity2.SelectedValue.Trim();
+        prod._field["tar_prov3"] = DrpProv3.SelectedValue.Trim();
+        prod._field["tar_city3"] = DrpCity3.SelectedValue.Trim();
         //prod._field["tar_startcity"] = TxtStartCity.Text.Trim();
         if (FileUpload1.FileBytes.Length != 0)
         {
@@ -477,6 +531,28 @@
         dg.DataSource = dt;
         dg.EditItemIndex = e.Item.ItemIndex;
         dg.DataBind();
+    }
+
+    protected void DrpProv2_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        DrpCity2.Items.Clear();
+        string[] cityArr = Product.GetCity(DrpProv2.SelectedValue.Trim(),int.Parse(treeview.SelectedNode.Value.Trim().Substring(0,1)));
+        foreach (string s in cityArr)
+        {
+            DrpCity2.Items.Add(s);
+        }
+    }
+
+
+
+    protected void DrpProv3_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        DrpCity3.Items.Clear();
+        string[] cityArr = Product.GetCity(DrpProv3.SelectedValue.Trim(), int.Parse(treeview.SelectedNode.Value.Trim().Substring(0, 1)));
+        foreach (string s in cityArr)
+        {
+            DrpCity3.Items.Add(s);
+        }
     }
 </script>
 
@@ -531,6 +607,26 @@
                             <td width="100" align="right" valign="top" class="style1" >标题：</td>
                             <td align="left" valign="top" >
                                 <asp:TextBox ID="TxtTitle" runat="server" Width="830px"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="100" align="right" valign="top" class="style1" >第二分类：</td>
+                            <td align="left" valign="top" >
+                                &nbsp;<asp:DropDownList ID="DrpProv2" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DrpProv2_SelectedIndexChanged">
+                                </asp:DropDownList>
+&nbsp;
+                                <asp:DropDownList ID="DrpCity2" runat="server">
+                                </asp:DropDownList>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="100" align="right" valign="top" class="style1" >第三分类：</td>
+                            <td align="left" valign="top" >
+                                &nbsp;<asp:DropDownList ID="DrpProv3" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DrpProv3_SelectedIndexChanged">
+                                </asp:DropDownList>
+&nbsp;
+                                <asp:DropDownList ID="DrpCity3" runat="server">
+                                </asp:DropDownList>
                             </td>
                         </tr>
                         <tr>

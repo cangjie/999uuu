@@ -94,11 +94,11 @@
         }
         .auto-style2
         {
-            width: 72px;
+            width: 75px;
         }
         .auto-style3
         {
-            width: 71px;
+            width: 75px;
         }
         
 @charset "utf-8";
@@ -2603,21 +2603,62 @@ span.icon_right {
                     <div id="dtl_info" style="background:#f6fcfc; width:92%; padding:10px" >
                         <table width="100%" border="0" cellpadding = "5" cellspacing ="5">
                             <tr>
-                                <td align="right" class="auto-style2" style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;"><strong>出 发 地：</strong></td>
-                                <td align="left" class="auto-style1" style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;"  ><%=p._field["tar_startcity"].ToString().Trim() %></td>
-                                <td align="right" class="auto-style3" style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;" ><strong>天 &nbsp;&nbsp; 数：</strong></td>
+                                <td align="right" class="auto-style2" style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;"><strong>出发城市：</strong></td>
+                                <td align="left"  style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;text-wrap:none"  ><%=p._field["tar_startcity"].ToString().Trim() %></td>
+                                <td align="right" class="auto-style3" style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;" ><strong>旅行天数：</strong></td>
                                 <td align="left" style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;"  ><%=p._field["tar_days"].ToString().Trim() %></td>
                             </tr>
                             <tr>
-                                <td align="right" valign="top" class="auto-style2" style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;" ><strong>交 &nbsp;&nbsp; 通：</strong></td>
-                                <td align="left" valign="top" class="auto-style1" style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;"  ><%=p._field["tar_airline"].ToString().Trim() %></td>
+                                <td align="right" valign="top" class="auto-style2" style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;" ><strong>交通安排：</strong></td>
+                                <td align="left" valign="top"  style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;text-wrap:none;"  ><%=p._field["tar_airline"].ToString().Trim() %></td>
                                 <td align="right" valign="top" class="auto-style3" style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;" ><strong>线路性质：</strong></td>
                                 <td align="left" valign="top" style="font-family: 微软雅黑; font-size:small ; color: #5FB6E1;"  >品质游</td>
                             </tr>
                             <tr>
-                                <td colspan="4" style="font-family: 微软雅黑; font-size:medium ; color: #5FB6E1;"><strong>预计价格</strong></td>
+                                <td colspan="4" style="font-family: 微软雅黑; font-size:medium ; color: #5FB6E1;">&nbsp;&nbsp;<strong>预计价格</strong>&nbsp;&nbsp;&nbsp;&nbsp;<%if (p._field["tar_abroad"].ToString().Equals("0")) 
+                                      {
+                                          
+                            int i = 0;
+              if (int.Parse(p._field["tar_price"].ToString().Trim()) > 0)
+            { %>
+            <font style="font-family: 微软雅黑; font-size:medium ; color: #5FB6E1;"  >双飞：</font><font color="red" style="font-family: 微软雅黑; font-size:medium ; "  ><b><%=p._field["tar_price"].ToString().Trim()%></b></font><font style="font-family: 微软雅黑; color: #5FB6E1;" >元</font> &nbsp;
+            <%
+                i++;
+            } %>
+            <%if (int.Parse(p._field["tar_price2"].ToString().Trim()) > 0)
+              { %>
+            <font style="font-family: 微软雅黑; font-size:medium ; color: #5FB6E1;"  >飞卧：</font><font color="red" style="font-family: 微软雅黑; font-size:medium ;"  ><b><%=p._field["tar_price2"].ToString().Trim()%></b></font><font style="font-family: 微软雅黑; color: #5FB6E1;" >元</font> &nbsp;
+            <%
+                  i++;
+            }
+                            //if (i == 1)
+                              //  Response.Write("<br/>");
+            %>
+            <%if (int.Parse(p._field["tar_price3"].ToString().Trim()) > 0)
+              { %>
+            <font style="font-family: 微软雅黑; font-size:medium ; color: #5FB6E1;"  >卧飞：</font><font color="red" style="font-family: 微软雅黑; font-size:medium ; "  ><b><%=p._field["tar_price3"].ToString().Trim()%></b></font><font style="font-family: 微软雅黑; color: #5FB6E1;" >元</font> &nbsp;
+            <%
+                  i++;
+            }
+                            //if (i == 1)
+                            //    Response.Write("<br/>");
+             %>
+            <%if (int.Parse(p._field["tar_price4"].ToString().Trim()) > 0)
+              { %>
+            <font style="font-family: 微软雅黑; font-size:medium ; color: #5FB6E1;"  >双卧：</font><font color="red" style="font-family: 微软雅黑; font-size:medium ; "  ><b><%=p._field["tar_price4"].ToString().Trim()%></b></font><font style="font-family: 微软雅黑; color: #5FB6E1;" >元</font> &nbsp;
+            <%
+                  i++;
+            } 
+                                    }
+                                    else
+                                    {
+                                      %>
+                                    <font color="red" style="font-family: 微软雅黑; font-size:medium ; "  ><b><%=p.RefPrice.ToString() %></b></font><font style="font-family: 微软雅黑; font-size:medium ; color: #5FB6E1;"  >元<%=(p.MultiPrice?"起":"") %></font>
+                                    <%
+                                      }
+                                         %></td>
                             </tr>
-                            <tr>
+                            <!--tr>
                                 <td colspan="4" >
                                     <%if (p._field["tar_abroad"].ToString().Equals("0")) 
                                       {
@@ -2662,7 +2703,7 @@ span.icon_right {
                                       }
                                          %>
                                 </td>
-                            </tr>
+                            <tr-->
                         </table>
                     </div>
 				</div>
@@ -2679,18 +2720,39 @@ span.icon_right {
                                     <td class="monthsTd" colspan="7">
                                         <%
                                             DateTime nowDate = DateTime.Now;
+                                            int monthId = 0;
                                              %>
-                                        <div class="months_now">
+                                        <div class="months_now"   >
                                             <div class="months_pre"></div>
-                                            <div class="months_num"><a onclick="getpricecalendar(<%=Request["id"].Trim() %>,<%=nowDate.Year.ToString() %>,<%=nowDate.Month.ToString() %>); changemonthclass(this,'year0');" href="javascript:void(0)" id="month0"><span style="display" id="year0"><%=nowDate.Year.ToString() %>年</span><span><%=nowDate.Month.ToString() %></span>月</a></div>
+                                            <div class="months_num"><a onclick="getpricecalendar(<%=Request["id"].Trim() %>,<%=nowDate.Year.ToString() %>,<%=nowDate.Month.ToString() %>); changemonthclass(this,'year<%=monthId %>');" href="javascript:void(0)" id="month<%=monthId %>"><span style="display" id="year<%=monthId %>"><%=nowDate.Year.ToString() %>年</span><span><%=nowDate.Month.ToString() %></span>月</a></div>
                                         </div>
                                         <%
+                                            monthId++;
                                             nowDate = nowDate.AddMonths(1);
                                              %>
-                                        <div class="months">
+                                        <div class="months"  >
                                             <div class="months_pre"></div>
-                                            <div class="months_num"><a onclick="getpricecalendar(<%=Request["id"].Trim() %>,<%=nowDate.Year.ToString() %>,<%=nowDate.Month.ToString() %>);changemonthclass(this,'year1');" href="javascript:void(0)" id="month1"><span style="display:none" id="year1">2013年</span><span><%=nowDate.Month.ToString() %></span>月</a></div>
+                                            <div class="months_num"><a onclick="getpricecalendar(<%=Request["id"].Trim() %>,<%=nowDate.Year.ToString() %>,<%=nowDate.Month.ToString() %>);changemonthclass(this,'year<%=monthId %>');" href="javascript:void(0)" id="month<%=monthId %>"><span style="display:none" id="year<%=monthId %>">2013年</span><span><%=nowDate.Month.ToString() %></span>月</a></div>
                                         </div>
+                                        <%
+                                            if (p._field["tar_abroad"].ToString().Trim().Equals("1"))
+                                            {
+                                            monthId++;
+                                            nowDate = nowDate.AddMonths(1);
+                                             %>
+                                        <div class="months" >
+                                            <div class="months_pre"></div>
+                                            <div class="months_num"><a onclick="getpricecalendar(<%=Request["id"].Trim() %>,<%=nowDate.Year.ToString() %>,<%=nowDate.Month.ToString() %>);changemonthclass(this,'year<%=monthId %>');" href="javascript:void(0)" id="month<%=monthId %>"><span style="display:none" id="year<%=monthId %>">2013年</span><span><%=nowDate.Month.ToString() %></span>月</a></div>
+                                        </div>
+                                        <%
+                                            monthId++;
+                                            nowDate = nowDate.AddMonths(1);
+                                             %>
+                                        <div class="months" >
+                                            <div class="months_pre"></div>
+                                            <div class="months_num"><a onclick="getpricecalendar(<%=Request["id"].Trim() %>,<%=nowDate.Year.ToString() %>,<%=nowDate.Month.ToString() %>);changemonthclass(this,'year<%=monthId %>');" href="javascript:void(0)" id="month<%=monthId %>"><span style="display:none" id="year<%=monthId %>">2013年</span><span><%=nowDate.Month.ToString() %></span>月</a></div>
+                                        </div>
+                                        <%} %>
                                     </td>
                                 </tr>
                             </tbody>
@@ -2878,13 +2940,9 @@ span.icon_right {
                             </tbody>
                         </table>
                     </div>
-                
-                    <div  style="width:100%" ><br />
+                    <!--div  style="width:100%" ><br />
                         <div style="background-color: #FFFF99; border-width:medium; height:50px; padding:10px; border-color: #F7B453; width:90%"><font color="red" ><strong>景点：</strong></font><font color="#AA5222" ><%=p._field["tar_sights"].ToString().Trim() %></font></div>
-                    </div>
-
-
-
+                    </div-->
 				</div>
 			</div>
 			<a name="xingchengtop"></a>
