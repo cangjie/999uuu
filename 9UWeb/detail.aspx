@@ -2948,7 +2948,7 @@ span.icon_right {
 			<a name="xingchengtop"></a>
 			<h5 class="xctese"><img src="jic/img/pub/tese.gif" alt=""></h5>
 			<ul class="baozhang">				
-				<li><%=p._field["tar_intro"].ToString().Trim().Replace("：", "：<br>").Replace("！", "！<br>").Replace("。", "。<br>")%></li>
+				<li><%=p._field["tar_intro"].ToString().Trim().Replace("：", "：<br>").Replace("！", "！<br>").Replace("。", "。<br>").Replace("<p>","").Replace("</p>","<br>").Trim()%></li>
 			</ul>
 			
 			<div style="margin-top: 10px;" id="line_trip_man">
