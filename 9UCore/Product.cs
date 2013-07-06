@@ -123,6 +123,8 @@ namespace _9UCore
                 + " tar_price4 = @price4 , "
                 + " tar_title = @title , "
                 + " tar_abroad = @type , "
+                + " tar_abroad2 = @type2 , "
+                + " tar_abroad3 = @type3 , "
                 + " tar_startcity = @startcity  , "
                 + " tar_days = @days , "
                 + " tar_airline = @airline  , "
@@ -148,6 +150,8 @@ namespace _9UCore
             cmd.Parameters.Add("@price4", _field["tar_price4"].ToString().Trim());
             cmd.Parameters.Add("@title", _field["tar_title"].ToString().Trim());
             cmd.Parameters.Add("@type", _field["tar_abroad"].ToString().Trim());
+            cmd.Parameters.Add("@type2", _field["tar_abroad2"].ToString().Trim());
+            cmd.Parameters.Add("@type3", _field["tar_abroad3"].ToString().Trim());
             cmd.Parameters.Add("@startcity", _field["tar_startcity"].ToString().Trim());
             cmd.Parameters.Add("@days", _field["tar_days"].ToString().Trim());
             cmd.Parameters.Add("@airline", _field["tar_airline"].ToString().Trim());

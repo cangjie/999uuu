@@ -108,7 +108,17 @@
                     }
                 }
 
-                FillProv(type, DrpProv2);
+                if (int.Parse(prod._field["tar_abroad2"].ToString()) == -1)
+                {
+                    DrpAbroad2.SelectedValue = prod._field["tar_abroad"].ToString();
+                }
+                else
+                {
+                    DrpAbroad2.SelectedValue = prod._field["tar_abroad2"].ToString();
+                }
+                
+
+                FillProv(int.Parse(DrpAbroad2.SelectedValue.Trim()), DrpProv2);
                 if (prod._field["tar_prov2"].ToString().Trim().Equals(""))
                 {
                     DrpProv2.SelectedValue = prod._field["tar_prov"].ToString().Trim();
@@ -121,8 +131,15 @@
                     DrpProv2_SelectedIndexChanged(sender, e);
                     DrpCity2.SelectedValue = prod._field["tar_city2"].ToString().Trim();
                 }
-
-                FillProv(type, DrpProv3);
+                if (int.Parse(prod._field["tar_abroad3"].ToString()) == -1)
+                {
+                    DrpAbroad3.SelectedValue = prod._field["tar_abroad"].ToString();
+                }
+                else
+                {
+                    DrpAbroad3.SelectedValue = prod._field["tar_abroad3"].ToString();
+                }
+                FillProv(int.Parse(DrpAbroad3.SelectedValue.Trim()), DrpProv3);
                 if (prod._field["tar_prov3"].ToString().Trim().Equals(""))
                 {
                     DrpProv3.SelectedValue = prod._field["tar_prov"].ToString().Trim();
@@ -212,10 +229,12 @@
         }
    
         LblCurLoc.Text = abd + ">>" + treeview.SelectedNode.Parent.Value.Trim() + ">>" + curLoc.Remove(0, 1);
+        DrpAbroad2.SelectedValue = type.ToString();
         FillProv(type, DrpProv2);
         DrpProv2.SelectedValue = treeview.SelectedNode.Parent.Value.Trim();
         DrpProv2_SelectedIndexChanged(sender, e);
         DrpCity2.SelectedValue = curLoc.Remove(0, 1);
+        DrpAbroad3.SelectedValue = type.ToString();
         FillProv(type, DrpProv3);
         DrpProv3.SelectedValue = treeview.SelectedNode.Parent.Value.Trim();
         DrpProv3_SelectedIndexChanged(sender, e);
@@ -244,7 +263,6 @@
         }
     }
     
-    
     protected void  dg_CancelCommand(object source, DataGridCommandEventArgs e)
     {
         DataTable dt = (DataTable)ViewState["dt"];
@@ -253,7 +271,6 @@
         dg.DataBind();
     }
 
-    
     protected void dg_UpdateCommand(object sender, EventArgs e)
     {
         int id = 0;
@@ -320,7 +337,6 @@
         }
     }
     
-    
     protected void  dg_DeleteCommand(object source, DataGridCommandEventArgs e)
     {
         DataTable dt = (DataTable)ViewState["dt"];
@@ -347,7 +363,6 @@
         dg.DataBind();
     }
 
-
     public void insert()
     {
         string strVali = vali();
@@ -370,8 +385,10 @@
             {
                 Product p = new Product(i);
                 p.DateList = (DataTable)ViewState["dt"];
+                p._field["tar_abroad2"] = DrpAbroad2.SelectedValue.Trim();
                 p._field["tar_prov2"] = DrpProv2.SelectedValue.Trim();
                 p._field["tar_city2"] = DrpCity2.SelectedValue.Trim();
+                p._field["tar_abroad3"] = DrpAbroad3.SelectedValue.Trim();
                 p._field["tar_prov3"] = DrpProv3.SelectedValue.Trim();
                 p._field["tar_city3"] = DrpCity3.SelectedValue.Trim();
                 p.Update();
@@ -500,8 +517,10 @@
         prod._field["tar_price2"] = TxtPrice2.Text.Trim();
         prod._field["tar_price3"] = TxtPrice3.Text.Trim();
         prod._field["tar_price4"] = TxtPrice4.Text.Trim();
+        prod._field["tar_abroad2"] = DrpAbroad2.SelectedValue.Trim();
         prod._field["tar_prov2"] = DrpProv2.SelectedValue.Trim();
         prod._field["tar_city2"] = DrpCity2.SelectedValue.Trim();
+        prod._field["tar_abroad3"] = DrpAbroad3.SelectedValue.Trim();
         prod._field["tar_prov3"] = DrpProv3.SelectedValue.Trim();
         prod._field["tar_city3"] = DrpCity3.SelectedValue.Trim();
         //prod._field["tar_startcity"] = TxtStartCity.Text.Trim();
@@ -519,6 +538,7 @@
         prod.Update();
         LblCurLoc.Text = LblCurLoc.Text + " <font color=red >更新成功！</font>";
     }
+    
     protected void  Button3_Click(object sender, EventArgs e)
     {
         Response.Redirect("main.aspx?city=" + Server.UrlEncode(treeview.SelectedNode.Value.Trim()), true);
@@ -543,8 +563,6 @@
         }
     }
 
-
-
     protected void DrpProv3_SelectedIndexChanged(object sender, EventArgs e)
     {
         DrpCity3.Items.Clear();
@@ -553,6 +571,16 @@
         {
             DrpCity3.Items.Add(s);
         }
+    }
+
+    protected void DrpAbroad2_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        FillProv(int.Parse(DrpAbroad2.SelectedValue.Trim()), DrpProv2);
+    }
+
+    protected void DrpAbroad3_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        FillProv(int.Parse(DrpAbroad3.SelectedValue.Trim()), DrpProv3);
     }
 </script>
 
@@ -612,7 +640,13 @@
                         <tr>
                             <td width="100" align="right" valign="top" class="style1" >第二分类：</td>
                             <td align="left" valign="top" >
-                                &nbsp;<asp:DropDownList ID="DrpProv2" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DrpProv2_SelectedIndexChanged">
+                                &nbsp;<asp:DropDownList ID="DrpAbroad2" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DrpAbroad2_SelectedIndexChanged">
+                                    <asp:ListItem Value="0">国内游</asp:ListItem>
+                                    <asp:ListItem Value="1">出境游</asp:ListItem>
+                                    <asp:ListItem Value="2">周边游</asp:ListItem>
+                                    <asp:ListItem Value="4">海岛游</asp:ListItem>
+                                </asp:DropDownList>
+&nbsp; <asp:DropDownList ID="DrpProv2" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DrpProv2_SelectedIndexChanged">
                                 </asp:DropDownList>
 &nbsp;
                                 <asp:DropDownList ID="DrpCity2" runat="server">
@@ -622,7 +656,13 @@
                         <tr>
                             <td width="100" align="right" valign="top" class="style1" >第三分类：</td>
                             <td align="left" valign="top" >
-                                &nbsp;<asp:DropDownList ID="DrpProv3" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DrpProv3_SelectedIndexChanged">
+                                &nbsp;<asp:DropDownList ID="DrpAbroad3" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DrpAbroad3_SelectedIndexChanged">
+                                    <asp:ListItem Value="0">国内游</asp:ListItem>
+                                    <asp:ListItem Value="1">出境游</asp:ListItem>
+                                    <asp:ListItem Value="2">周边游</asp:ListItem>
+                                    <asp:ListItem Value="4">海岛游</asp:ListItem>
+                                </asp:DropDownList>
+&nbsp; <asp:DropDownList ID="DrpProv3" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DrpProv3_SelectedIndexChanged">
                                 </asp:DropDownList>
 &nbsp;
                                 <asp:DropDownList ID="DrpCity3" runat="server">

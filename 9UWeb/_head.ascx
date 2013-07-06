@@ -54,3 +54,52 @@
 
 <div class="mainnavright">&nbsp;</div>
 </div>
+<div id="ad" style="border: 1px solid #007ACC; position:absolute;width:100px;left:0px;top:50px" >
+    <div  >
+        <div style="background-color: #007ACC;width:100%" >
+            <h1 style="font-family: 微软雅黑; color: #FFFFFF; font-size: medium;">咨询服务</h1>
+        </div>
+        <div>
+            <br />&nbsp;<a href="http://wpa.qq.com/msgrd?V=1&Uin=1569585309&Site=http://www.999uuu.cn&Menu=yes" target="blank">
+                <img border="0" alt="中唐国旅客服" src="http://wpa.qq.com/pa?p=1:1569585309:5">
+            </a>
+            <br />&nbsp;<a href="http://wpa.qq.com/msgrd?V=1&Uin=57694813&Site=http://www.999uuu.cn&Menu=yes" target="blank">
+                <img border="0" alt="中唐国旅客服" src="http://wpa.qq.com/pa?p=1:57694813:5">
+            </a>
+            <br />&nbsp;<a href="http://wpa.qq.com/msgrd?V=1&Uin=5675795&Site=http://www.999uuu.cn&Menu=yes" target="blank">
+                <img border="0" alt="中唐国旅客服" src="http://wpa.qq.com/pa?p=1:5675795:5">
+            </a>
+            <br />
+        </div>
+        <div >
+            <br />
+            &nbsp;客服电话:<br />&nbsp;010-84786357
+            <br />
+        </div>
+        <div >
+            <br />&nbsp;工作时间:<br />&nbsp;周一至五 10点 &nbsp;- 20点
+            <br />&nbsp;<br />
+        </div>
+    </div>
+</div>
+<script lang="javascript" >
+    var x = 50,y = 60 
+    var xin = true, yin = true 
+    var step = 1
+    var delay = 1
+    var obj=document.getElementById("ad") 
+    function floatAD() {
+        var L=T=0 
+        var R= document.body.clientWidth-obj.offsetWidth 
+        var B = document.body.clientHeight-obj.offsetHeight 
+        obj.style.left =  "0px"
+        obj.style.top = 60 + document.documentElement.scrollTop + "px"
+    }
+    //alert("aa");
+    var itl = setInterval("floatAD()", delay)
+    //alert("bb");
+    //obj.onmouseover = function () { clearInterval(itl) }
+    //alert("cc");
+    //obj.onmouseout = function () { itl = setInterval("floatAD()", delay) }
+    //alert("dd");
+</script> 
