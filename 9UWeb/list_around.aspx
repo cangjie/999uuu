@@ -14,7 +14,7 @@
     
     protected void Page_Load(object sender, EventArgs e)
     {
-        pArr = Product.GetHotProdByType(0);
+        pArr = Product.GetHotProdByType(2);
         
     }
 </script>
@@ -38,9 +38,9 @@
                 <uc3:_leftmenu ID="_leftmenu1" runat="server" />
                 <div class="mainright" >
                     <table   border="0" style="width: 100%;" >
-                        <tr>
-                            <td><img src="images/map.jpg" usemap="#Map" border="0" /></td>
-                        </tr>
+                        <!--tr>
+                            <td><img src="images/map.jpg" border="0" /></td>
+                        </tr-->
                         <tr>
                             <td>
 
@@ -192,6 +192,8 @@
                             
                             </td>
                         </tr>
+
+
                         <tr>
                             <td>
 
@@ -494,6 +496,151 @@
                         </tr>
 
 
+                        <tr>
+                            <td>
+
+
+
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="left" valign="top">
+                                                                <table border="0" cellspacing="0" width="100%">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td class="company" height="5">
+                                                                                <table align="left" bgcolor="#D7D7D7" border="0" cellpadding="1" cellspacing="1" height="31" width="100%">
+                                                                                    <tbody>
+                                                                                        <tr bgcolor="#ffffff">
+                                                                                            <td background="images/h2.gif" height="26" valign="top">
+                                                                                                <table border="0" cellpadding="0" cellspacing="0" height="27" width="100%">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td align="center" background="images/t1.jpg" height="24" width="21%"><span class="bai">当季经典线路推荐</span></td>
+                                                                                                            <td width="67%">&nbsp;</td>
+                                                                                                            <td align="right" width="11%">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="company" height="5">
+                                                                                <table align="left" border="0" cellspacing="0" width="100%">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <%
+                                                                                                for (int i = 0 ; i < 4 ; i++)
+                                                                                                {
+                                                                                                 %>
+                                                                                            <td align="left" valign="top">
+                                                                                                <table border="0" cellpadding="2" cellspacing="2" width="167">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td>
+                                                                                                                <table style="" onmouseover="this.style.backgroundColor='#FF6600';" onmouseout="this.style.backgroundColor=''" bgcolor="#F2F2F2" border="0" cellpadding="1" cellspacing="1" height="125" width="100%">
+                                                                                                                    <tbody>
+                                                                                                                        <tr>
+                                                                                                                            <td align="center" bgcolor="#FFFFFF" height="123" valign="top">
+                                                                                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                                                                    <tbody>
+                                                                                                                                        <tr>
+                                                                                                                                            <td align="left" bgcolor="#E6E6E6" height="30"><strong>&nbsp;&nbsp;特价线路</strong></td>
+                                                                                                                                        </tr>
+                                                                                                                                        <tr>
+                                                                                                                                            <td align="center"><a href="detail.aspx?id=<%=pArr[i+28]._field["tar_id"].ToString().Trim() %>" class="xbt" title="<%=pArr[i+28]._field["tar_title"].ToString() %>"><img src="http://www.999uuu.cn/<%=pArr[i+28].ImageUrl.Trim()%>" align="absmiddle" border="0" height="95" width="155"></a></td>
+                                                                                                                                        </tr>
+                                                                                                                                        <tr>
+                                                                                                                                            <td align="left" height="40">
+                                                                                                                                                <table border="0" cellpadding="2" cellspacing="2" width="100%">
+                                                                                                                                                    <tbody>
+                                                                                                                                                        <tr>
+                                                                                                                                                            <td class="STYLE2" height="39" valign="top"><%=pArr[i+28].GetTitle(30) %></td>
+                                                                                                                                                        </tr>
+                                                                                                                                                    </tbody>
+                                                                                                                                                </table>
+                                                                                                                                            </td>
+                                                                                                                                        </tr>
+                                                                                                                                        <tr>
+                                                                                                                                            <td align="left" height="16">
+                                                                                                                                                <table border="0" cellpadding="2" cellspacing="2" width="100%">
+                                                                                                                                                    <tbody>
+                                                                                                                                                        <tr>
+                                                                                                                                                            <td><strong>发团:天天发团 </strong></td>
+                                                                                                                                                        </tr>
+                                                                                                                                                    </tbody>
+                                                                                                                                                </table>
+                                                                                                                                            </td>
+                                                                                                                                        </tr>
+                                                                                                                                        <tr>
+                                                                                                                                            <td align="left" height="32">
+                                                                                                                                                <table border="0" cellpadding="2" cellspacing="2" width="100%">
+                                                                                                                                                    <tbody>
+                                                                                                                                                        <tr>
+                                                                                                                                                            <td><strong>行程:<%=pArr[i+28]._field["tar_days"] %>天</strong></td>
+                                                                                                                                                        </tr>
+                                                                                                                                                    </tbody>
+                                                                                                                                                </table>
+                                                                                                                                            </td>
+                                                                                                                                        </tr>
+                                                                                                                                        <tr>
+                                                                                                                                            <td align="left" height="16">
+                                                                                                                                                <table border="0" cellpadding="2" cellspacing="2" width="100%">
+                                                                                                                                                    <tbody>
+                                                                                                                                                        <tr>
+                                                                                                                                                            <td><strong>出发:<%=pArr[i+28]._field["tar_startcity"] %></strong></td>
+                                                                                                                                                        </tr>
+                                                                                                                                                    </tbody>
+                                                                                                                                                </table>
+                                                                                                                                            </td>
+                                                                                                                                        </tr>
+                                                                                                                                        <tr>
+                                                                                                                                            <td align="left" height="16">
+                                                                                                                                                <table border="0" cellpadding="2" cellspacing="2" width="100%">
+                                                                                                                                                    <tbody>
+                                                                                                                                                        <tr>
+                                                                                                                                                            <td height="24"><h3><span class="hong" style="color:#ff0000" ><strong>￥<%=pArr[i+28].RefPrice.ToString() %></strong></span>/人<%=pArr[i+28].MultiPrice?"起":"" %></h3></td>
+                                                                                                                                                        </tr>
+                                                                                                                                                    </tbody>
+                                                                                                                                                </table>
+                                                                                                                                            </td>
+                                                                                                                                        </tr>
+                                                                                                                                    </tbody>
+                                                                                                                                </table>
+                                                                                                                            </td>
+                                                                                                                        </tr>
+                                                                                                                    </tbody>
+                                                                                                                </table>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                            <%
+                                                                                            }
+                                                                                                 %>
+
+                                                                                        </tr>
+                                                                                            </tbody></table></td>
+                                                                                          </tr>
+                                                                                                                    </tbody></table></td>
+                                                                                    </tr>
+                                                                                </tbody></table></td>
+                                                                                </tr>
+                                                                            </tbody></table>
+
+
+
+                            </td>
+                        </tr>
 
                             
                     </table>
@@ -504,25 +651,5 @@
             <uc2:_tail ID="_tail1" runat="server" />
         </div>
     </form>
-
-<map name="Map">
-  <area shape="circle" coords="455,159,25" href="list_around.aspx" target="_blank">
-  <area shape="circle" coords="476,314,16" href="list_prov.aspx?prov=%e7%a6%8f%e5%bb%ba&type=0" target="_blank">
-  <area shape="circle" coords="390,341,19" href="list_prov.aspx?prov=%e5%b9%bf%e8%a5%bf&type=0" target="_blank">
-  <area shape="circle" coords="365,309,17" href="list_prov.aspx?prov=贵州&type=0" target="_blank">
-  <area shape="circle" coords="392,386,20" href="list_prov.aspx?prov=%e6%b5%b7%e5%8d%97&type=0" target="_blank">
-  <area shape="circle" coords="417,295,17" href="list_prov.aspx?prov=湖南&type=0" target="_blank">
-  <area shape="rect" coords="451,215,539,281" href="list_prov.aspx?prov=%e5%8d%8e%e4%b8%9c&type=0" target="_blank">
-  <area shape="circle" coords="422,184,18" href="list_prov.aspx?prov=山西&type=0" target="_blank">
-  <area shape="rect" coords="376,179,398,241" href="list_prov.aspx?prov=陕西&type=0" target="_blank">
-  <area shape="rect" coords="300,232,374,286" href="list_prov.aspx?prov=四川&type=0" target="_blank">
-  <area shape="poly" coords="369,175,289,127,234,55,100,127,120,200,135,232,219,272,271,281,292,227,328,222,363,224" href="list_prov.aspx?prov=%e8%a5%bf%e9%83%a8%e8%a1%8c&type=0" target="_blank">
-  <area shape="circle" coords="319,326,22" href="list_prov.aspx?prov=云南&type=0" target="_blank">
-  <area shape="circle" coords="449,294,11" href="list_prov.aspx?prov=江西&type=0" target="_blank">
-  <area shape="poly" coords="297,124,379,169,399,167,420,152,428,142,445,133,465,131,498,121,495,98,506,44,480,26,446,55,443,80,422,102,396,117" href="list_prov.aspx?prov=内蒙古&type=0">
-  <area shape="poly" coords="482,133,507,122,512,51,497,21,559,53,579,59,572,89,554,115,502,151" href="list_prov.aspx?prov=东北&type=0" target="_blank">
-  <area shape="poly" coords="419,321,424,358,463,339" href="list_prov.aspx?prov=%e4%b8%9c%e5%8c%97&type=0" target="_blank">
-  <area shape="circle" coords="424,260,22" href="list_prov.aspx?prov=%e6%b9%96%e5%8c%97&type=0" target="_blank">
-</map>
 </body>
 </html>

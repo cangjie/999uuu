@@ -4,7 +4,7 @@
 </script>
 
 <div class="top">
-<p class="p1"><span>010-84786357</span>[望京] <span> </span>[]<!--<span>4008-888-820</span>[北三环] （免长话费）--></p>
+<p class="p1"><span>010-84786357</span>[望京] <span> </span><!--<span>4008-888-820</span>[北三环] （免长话费）--></p>
 <p><!--img alt="" src="jic/img/pub/toplogo.gif" tppabs="http://www.btgbj.com/jic/img/pub/toplogo.gif" /--></p>
  <ul>
     <!--li class="loginli"><a href="account/login.php.htm" tppabs="http://www.btgbj.com/account/login.php">登录</a><a href="account/signup.php.htm" tppabs="http://www.btgbj.com/account/signup.php">注册</a></li>
@@ -14,9 +14,7 @@
 </div>
 <div class="topbanner">
 	<img src="jic/img/pub/top_banner2.jpg" tppabs="http://www.btgbj.com/jic/img/pub/top_banner2.jpg" alt="" width="978" height="112" border="0" usemap="#Map">
-    <map name="Map" id="Map">
-      <area shape="rect" coords="11,9,318,104" href="index.htm" tppabs="http://www.btgbj.com/" />
-    </map>
+  
 	<p>
 	<span>
 	<span>
@@ -38,15 +36,15 @@
 
     <li><a href="/list_outter.aspx"    target="_blank">出境旅游</a></li>
 
-    <li><a href="#"  >周边旅游</a></li>
+    <li><a href="/list_around.aspx" target="_blank"  >周边旅游</a></li>
 
     <li><a href="#"  >邮轮行</a></li>
 
-    <li><a href="#"  >会议会奖</a></li>
+    <li><a href="meet.aspx"  >会议会奖</a></li>
 
     <li><a href="#"  >夕阳红</a></li>
 
-    <li><a href="#"  >签证服务</a></li>
+    <li><a href="list_visa.aspx"  >签证服务</a></li>
 
     <li><a href="/contactus.aspx" >联系我们</a></li>
    
@@ -83,23 +81,17 @@
     </div>
 </div>
 <script lang="javascript" >
-    var x = 50,y = 60 
-    var xin = true, yin = true 
+    var x = 50, y = 60
+    var xin = true, yin = true
     var step = 1
     var delay = 1
-    var obj=document.getElementById("ad") 
+    var obj = document.getElementById("ad")
     function floatAD() {
-        var L=T=0 
-        var R= document.body.clientWidth-obj.offsetWidth 
-        var B = document.body.clientHeight-obj.offsetHeight 
-        obj.style.left =  "0px"
+        var L = T = 0
+        var R = document.body.clientWidth - obj.offsetWidth
+        var B = document.body.clientHeight - obj.offsetHeight
+        obj.style.left = "0px"
         obj.style.top = 60 + document.documentElement.scrollTop + "px"
     }
-    //alert("aa");
     var itl = setInterval("floatAD()", delay)
-    //alert("bb");
-    //obj.onmouseover = function () { clearInterval(itl) }
-    //alert("cc");
-    //obj.onmouseout = function () { itl = setInterval("floatAD()", delay) }
-    //alert("dd");
 </script> 

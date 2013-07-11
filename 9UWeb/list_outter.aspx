@@ -39,7 +39,7 @@
                 <div class="mainright" >
                     <table   border="0" style="width: 100%;" >
                         <tr>
-                            <td><img src="images/chujingheadimg.jpg" border="0" /></td>
+                            <td><img src="images/chujingheadimg.jpg" usemap="#Map" border="0" /></td>
                         </tr>
                         <tr>
                             <td>
@@ -499,5 +499,16 @@
             <uc2:_tail ID="_tail1" runat="server" />
         </div>
     </form>
+
+<map name="Map">
+  <area shape="rect" coords="68,43,178,135" href="list_prov.aspx?prov=%e7%be%8e%e6%b4%b2&type=1" target="new">
+  <area shape="rect" coords="297,53,382,138" href="list_prov.aspx?prov=欧洲&type=1" target="_blank">
+  <area shape="rect" coords="399,41,503,128" href="list_city.aspx?city=%e4%bf%84%e7%bd%97%e6%96%af" target="_blank">
+  <area shape="rect" coords="510,90,603,169" href="list_prov.aspx?prov=亚洲&type=1" target="_blank">
+  <area shape="rect" coords="392,182,488,271" href="list_prov.aspx?prov=%e4%b8%9c%e5%8d%97%e4%ba%9a&type=1" target="_blank">
+  <area shape="rect" coords="252,224,341,308" href="list_prov.aspx?prov=非洲&type=1" target="_blank">
+  <area shape="poly" coords="450,284,452,309,524,307,631,311,626,259,532,255" href="list_prov.aspx?prov=%e5%a4%a7%e6%b4%8b%e6%b4%b2&type=1" target="_blank">
+  <area shape="rect" coords="495,170,589,247" href="list_prov.aspx?prov=%e7%be%8e%e5%9b%bd&type=4" target="_blank">
+</map>
 </body>
 </html>
